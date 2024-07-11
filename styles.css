@@ -1,0 +1,31 @@
+/* Navbar. */
+
+.navbar {
+    background-color: #7CBD1E;
+
+}
+
+.navbar .buttongroup {
+    list-style-type: none;
+}
+
+.navbar .button {
+    background-color: #BCEB3C;
+
+    text-align: center;
+    color: #7CBD1E;
+    font-weight: 600;
+    font-size: 21px;
+
+    margin: 25px 0px 25px 0px;
+    padding: 10px;
+}
+
+.navbar .button a {
+    text-decoration: none;
+    color: #7CBD1E;
+}
+
+.navbar .button:hover {
+    background-color: #F1F864;
+}
