@@ -1,7 +1,6 @@
 /* Navbar. */
 .navbar {
     background-color: #7CBD1E;
-
 }
 
 .navbar .buttongroup {
@@ -19,8 +18,10 @@
     text-align: center;
     color: #7CBD1E;
     font-weight: 600;
-    /*font-size: 18px;*/
+
+    font-size: 18px;
     font-size: 1.15vw;
+    text-wrap: nowrap;
 
     margin: 25px 0px 25px 0px;
     padding: 10px;

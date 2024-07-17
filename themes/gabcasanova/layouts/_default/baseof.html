@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+<body>
+  <div class="container-fluid p-0 m-0">
+    <div class="row p-0 m-0">
+      {{/* <header> */}}
+        {{ partial "header.html" . }}
+        {{/* </header> */}}
+
+      {{/*  <div class="col p-3 m-0">  */}}
+        {{/* <main> */}}
+          {{ block "main" . }}{{ end }}
+          {{/* </main> */}}
+      {{/*  </div>  */}}
+
+      {{/* <footer>
+        {{ partial "footer.html" . }}
+      </footer> */}}
+    </div>
+  </div>
+</body>
+
+</html>

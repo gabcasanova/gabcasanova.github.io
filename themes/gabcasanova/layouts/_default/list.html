@@ -1,0 +1,29 @@
+{{ define "main" }}
+  <div class="col p-3 m-0">
+    <div class="pagetitle">
+      <h1>{{ .Title }}</h1>
+      <hr>
+    </div>
+
+    {{ .Content }}
+
+    {{ range .Pages }}
+    <div class="row mx-0 my-3 px-0 py-3 post">
+      {{ if .Params.thumbnail }}
+      <div class="col-md-auto thumb">
+        <a href="{{ .RelPermalink }}"><img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" class="img-thumbnail"></a>
+      </div>
+      {{ end }}
+
+      <div class="col">
+        <h1>{{ .LinkTitle }}</h1>
+        {{ if .Params.subtitle }}
+        <h5>{{ .Params.subtitle }}</h5>
+        {{ end }}
+        <p>{{ .Summary }}... <a class="readmore" href="{{ .RelPermalink }}"><strong><em>ler mais</em></strong></a></p>
+        {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+{{ end }}

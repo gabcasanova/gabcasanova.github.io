@@ -1,0 +1,40 @@
+{{ define "main" }}
+  <div class="col p-3 m-0 background">
+    <div class="pagetitle">
+      <h1>{{ .Title }}</h1>
+      <hr>
+      <div class="row">
+        {{/*  Date  */}}
+        <div class="col-2">
+          {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+          {{ $dateHuman := .Date | time.Format ":date_long" }}
+          <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+        </div>
+
+        {{/*  Subtitle  */}}
+        <div class="col">
+          {{ if .Params.subtitle }}
+            <h4><em>{{ .Params.subtitle }}</em></h4>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+    <div class="row m-5">
+      {{ .Content }}
+    </div>
+
+    <div class="row m-5 align-items-end text-center ">
+      <div class="col-2">
+        <p><i class="fa-solid fa-chevron-left"></i> página anterior</p>
+      </div>
+      <div class="col">
+        <p>tags:</p>
+        {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+      </div>
+      <div class="col-2">
+        <p>próxima página <i class="fa-solid fa-chevron-right"></i></p>
+      </div>
+    </div>
+  </div>
+{{ end }}
