@@ -1,5 +1,7 @@
 {{ define "main" }}
   <div class="col p-3 m-0 background">
+
+    {{/*  Page title  */}}
     <div class="pagetitle">
       <h1>{{ .Title }}</h1>
       <hr>
@@ -20,19 +22,23 @@
       </div>
     </div>
 
+    {{/*  Page text.  */}}
     <div class="row m-4">
       {{ .Content }}
     </div>
 
-    <div class="row m-4 align-items-end text-center ">
-      <div class="col-2">
+    {{/*  Previous/Next Page and Tags.  */}}
+    <div class="row align-items-end text-center ">
+      <div class="col-2"> {{/*  Previous page.  */}}
         <p><i class="fa-solid fa-chevron-left"></i> página anterior</p>
       </div>
-      <div class="col">
+
+      <div class="col"> {{/*  Tags.  */}}
         <p>tags:</p>
         {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
       </div>
-      <div class="col-2">
+
+      <div class="col-2"> {{/*  Next page.  */}}
         <p>próxima página <i class="fa-solid fa-chevron-right"></i></p>
       </div>
     </div>
