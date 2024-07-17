@@ -9,23 +9,23 @@
 
     {{/*  Go through every post.  */}}
     {{ range .Pages }}
-    <div class="row mx-0 my-3 px-0 py-3 post">
+    <div class="row mx-0 my-3 px-0 py-3 post justify-content-center">
       {{/*  Show thumbnail.  */}}
       {{ if .Params.thumbnail }}
-      <div class="col-md-auto thumb">
+      <div class="col-md-auto mb-3 thumb">
         <a href="{{ .RelPermalink }}"><img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" class="img-thumbnail"></a>
       </div>
       {{ end }}
 
-      <div class="col">
-        <h2>{{ .LinkTitle }}</h2>
+      <div class="col-sm ">
+        <a href="{{ .RelPermalink }}"><h2>{{ .LinkTitle }}</h2></a>
 
         {{ if .Params.subtitle }}
           <h5>{{ .Params.subtitle }}</h5>
         {{ end }}
         
         <p> {{ .Summary }} ... <a class="readmore" href="{{ .RelPermalink }}"> <strong><em>ler mais</em></strong></a> </p>
-        
+
         {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
       </div>
     </div>

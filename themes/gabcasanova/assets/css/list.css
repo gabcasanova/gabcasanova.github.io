@@ -9,6 +9,10 @@
     text-decoration: none;
 }
 
+.post a:hover {
+    text-decoration: underline;
+}
+
 .post .readmore {
     color: #7CBD1E;
 }
