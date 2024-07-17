@@ -7,8 +7,10 @@
 
     {{ .Content }}
 
+    {{/*  Go through every post.  */}}
     {{ range .Pages }}
     <div class="row mx-0 my-3 px-0 py-3 post">
+      {{/*  Show thumbnail.  */}}
       {{ if .Params.thumbnail }}
       <div class="col-md-auto thumb">
         <a href="{{ .RelPermalink }}"><img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" class="img-thumbnail"></a>
@@ -16,11 +18,14 @@
       {{ end }}
 
       <div class="col">
-        <h1>{{ .LinkTitle }}</h1>
+        <h2>{{ .LinkTitle }}</h2>
+
         {{ if .Params.subtitle }}
-        <h5>{{ .Params.subtitle }}</h5>
+          <h5>{{ .Params.subtitle }}</h5>
         {{ end }}
-        <p>{{ .Summary }}... <a class="readmore" href="{{ .RelPermalink }}"><strong><em>ler mais</em></strong></a></p>
+        
+        <p> {{ .Summary }} ... <a class="readmore" href="{{ .RelPermalink }}"> <strong><em>ler mais</em></strong></a> </p>
+        
         {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
       </div>
     </div>
