@@ -1,18 +1,36 @@
-/* Navbar. */
-.navbar {
+/* navbar. */
+
+/* Mobile --------------------------------------------------- */
+.navmobile {
+    background-color: #7CBD1E;
+    
+}
+
+.navmobile li {
+    background-color: #;
+}
+
+.navmobile li a {
+    color: #BCEB3C;
+    font-weight: 600;
+}
+
+
+/* DESKTOP --------------------------------------------------- */
+.navbar-desktop {
     background-color: #7CBD1E;
 }
 
-.navbar .buttongroup {
+.navbar-desktop .buttongroup {
     list-style-type: none;
 }
 
-.navbar .button {
+.navbar-desktop .button {
     text-decoration: none;
     color: #7CBD1E;
 }
 
-.navbar .button li{
+.navbar-desktop .button li{
     background-color: #BCEB3C;
 
     text-align: center;
@@ -29,10 +47,10 @@
     transition: 0.3s;
 }
 
-.navbar .button li:hover {
+.navbar-desktop .button li:hover {
     background-color: #F1F864;
 }
 
-.navbar .button li:active {
+.navbar-desktop .button li:active {
     background-color: #fcf9f9;
 }

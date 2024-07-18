@@ -1,13 +1,57 @@
-<div class="col-2 d-none m-0 p-0 d-xl-block"> {{/* Hide on screens smaller  */}}
+{{ $currentPage := . -}}
+
+{{/* Mobile navbar. */}}
+<div class="m-0 p-0 d-xl-none sticky-top ">
+    <nav data-bs-theme="dark" class="navbar navbar-expand-lg navmobile" >
+        <div class="container-fluid">
+            {{ $mainPage := site.GetPage "home" }}
+
+            <a class="navbar-brand" href="{{ $mainPage.RelPermalink }}">
+                <img style="margin: -5px;" src="/img/logo_mobile.png" height="50">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    {{/* Create main page button since it's at the root. */}}
+                    <li class="nav-item ms-2">
+                        {{/*  class="nav-link active" 
+                            aria-current="page"   */}}
+                        <a class="nav-link"
+                            
+                            href="{{ $mainPage.RelPermalink }}">
+                            {{ $mainPage.Title }}
+                        </a>
+                    </li>
+
+                    {{/* Create buttons based on page indexes. */}}
+                    {{ range (site.GetPage "_index").Pages }}
+                        <li class="nav-item ms-2">
+                            <a class="nav-link" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                        </li>
+                    {{ end }}
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+{{/* Desktop navbar. */}}
+<div class="col-2 d-none m-0 p-0 d-xl-block"> {{/* Hide on screens smaller than XL */}}
     <div class="p-3 vh-100  
             sticky-xl-top
             d-flex flex-column flex-nowrap align-items-stretch
-            navbar">
+            navbar-desktop">
 
         {{/* Logo */}}
         <div class="row">
-            {{ $logo := resources.Get "img/logo.png" }}
-            <img class="img-fluid" src="{{ $logo.Permalink }}" />
+            <img class="img-fluid" src="/img/logo_desktop.png" />
         </div>
 
         {{/* Buttons. */}}
