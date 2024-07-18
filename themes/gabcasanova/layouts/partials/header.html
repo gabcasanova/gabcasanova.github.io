@@ -1,8 +1,6 @@
-{{ $currentPage := . -}}
-
 {{/* Mobile navbar. */}}
-<div class="m-0 p-0 d-xl-none sticky-top ">
-    <nav data-bs-theme="dark" class="navbar navbar-expand-lg navmobile" >
+<div class="m-0 p-0 d-xl-none sticky-top">
+    <nav data-bs-theme="dark" class="navbar navbar-expand-lg navmobile">
         <div class="container-fluid">
             {{ $mainPage := site.GetPage "home" }}
 
@@ -20,10 +18,7 @@
                 <ul class="navbar-nav ms-auto">
                     {{/* Create main page button since it's at the root. */}}
                     <li class="nav-item ms-2">
-                        {{/*  class="nav-link active" 
-                            aria-current="page"   */}}
-                        <a class="nav-link"
-                            
+                        <a class="nav-link {{ if eq .RelPermalink $mainPage.RelPermalink }}active{{ end }}"
                             href="{{ $mainPage.RelPermalink }}">
                             {{ $mainPage.Title }}
                         </a>
@@ -32,15 +27,16 @@
                     {{/* Create buttons based on page indexes. */}}
                     {{ range (site.GetPage "_index").Pages }}
                         <li class="nav-item ms-2">
-                            <a class="nav-link" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                            <a class="nav-link {{ if eq .RelPermalink $.RelPermalink }}active{{ end }}"
+                                href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
                         </li>
                     {{ end }}
-                    
                 </ul>
             </div>
         </div>
     </nav>
 </div>
+
 
 {{/* Desktop navbar. */}}
 <div class="col-2 d-none m-0 p-0 d-xl-block"> {{/* Hide on screens smaller than XL */}}
