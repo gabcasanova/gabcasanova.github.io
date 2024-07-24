@@ -6,10 +6,6 @@
     
 }
 
-.navmobile li {
-    background-color: #;
-}
-
 .navmobile li a {
     color: #BCEB3C;
     font-weight: 600;
@@ -52,5 +48,9 @@
 }
 
 .navbar-desktop .button li:active {
+    background-color: #fcf9f9;
+}
+
+.navbar-desktop .button .active li {
     background-color: #fcf9f9;
 }

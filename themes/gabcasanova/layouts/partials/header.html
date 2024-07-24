@@ -1,9 +1,9 @@
+{{ $mainPage := site.GetPage "home" }}
+
 {{/* Mobile navbar. */}}
 <div class="m-0 p-0 d-xl-none sticky-top">
     <nav data-bs-theme="dark" class="navbar navbar-expand-lg navmobile">
         <div class="container-fluid">
-            {{ $mainPage := site.GetPage "home" }}
-
             <a class="navbar-brand" href="{{ $mainPage.RelPermalink }}">
                 <img style="margin: -5px;" src="/img/logo_mobile.png" height="50">
             </a>
@@ -47,7 +47,7 @@
 
         {{/* Logo */}}
         <div class="row">
-            <img class="img-fluid" src="/img/logo_desktop.png" />
+            <a href="{{ $mainPage.RelPermalink }}"><img class="img-fluid" src="/img/logo_desktop.png"/></a>
         </div>
 
         {{/* Buttons. */}}
@@ -62,9 +62,9 @@
 
                     {{/* Create buttons based on page indexes. */}}
                     {{ range (site.GetPage "_index").Pages }}
-                    <a href="{{ .RelPermalink }}" class="button">
-                        <li>{{ .LinkTitle }}</li>
-                    </a>
+                        <a href="{{ .RelPermalink }}" class="button {{ if eq .RelPermalink $.RelPermalink }}active{{ end }}">
+                            <li>{{ .LinkTitle }}</li>
+                        </a>
                     {{ end }}
                 </ul>
             </nav>
