@@ -1,7 +1,8 @@
 +++
 title = 'Instituto de Matemática e Estatística'
 subtitle = 'Estágio • UERJ - Universidade do Estado do Rio de Janeiro'
-date = 2024-07-13T01:50:41-03:00
+thirdtitle = 'mar de 2024 - o momento'
+date = 2024-03-01T01:50:41-03:00
 draft = false
 thumbnail = '/img/ime.png'
 tags = ['wordpress', 'mysql', 'php', 'bootstrap', 'jquery', 'javascript', 'html-css3']

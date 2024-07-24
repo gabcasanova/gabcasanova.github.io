@@ -23,6 +23,10 @@
         {{ if .Params.subtitle }}
           <h5>{{ .Params.subtitle }}</h5>
         {{ end }}
+
+        {{ if .Params.thirdtitle }}
+          <h6 class="text-body-secondary"><em>{{ .Params.thirdtitle }}</em></h6>
+        {{ end }}
         
         <p> {{ .Summary }}... <a class="readmore" href="{{ .RelPermalink }}"><strong><em>ler mais</em></strong></a> </p>
 
