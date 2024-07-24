@@ -1,5 +1,5 @@
 baseURL = 'https://gabrielcasanova.com.br/'
-languageCode = 'en-us'
+languageCode = 'pt-BR'
 title = 'gabriel casanova'
 theme = "gabcasanova"
 capitalizeListTitles = false
