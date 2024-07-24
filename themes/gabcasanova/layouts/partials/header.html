@@ -56,13 +56,13 @@
                 <ul class="p-0 m-0 buttongroup">
                     {{/* Create main page button since it's at the root. */}}
                     {{ $mainPage := site.GetPage "home" }}
-                    <a href="{{ $mainPage.RelPermalink }}" class="button">
+                    <a href="{{ $mainPage.RelPermalink }}" class="button {{ if eq .RelPermalink $mainPage.RelPermalink }}current{{ end }}">
                         <li>{{ $mainPage.Title }}</li>
                     </a>
 
                     {{/* Create buttons based on page indexes. */}}
                     {{ range (site.GetPage "_index").Pages }}
-                        <a href="{{ .RelPermalink }}" class="button {{ if eq .RelPermalink $.RelPermalink }}active{{ end }}">
+                        <a href="{{ .RelPermalink }}" class="button {{ if eq .RelPermalink $.RelPermalink }}current{{ end }}">
                             <li>{{ .LinkTitle }}</li>
                         </a>
                     {{ end }}

@@ -51,6 +51,8 @@
     background-color: #fcf9f9;
 }
 
-.navbar-desktop .button .active li {
-    background-color: #fcf9f9;
+/**/
+
+.navbar-desktop .current li {
+    background-color: #fcf9f9 !important;
 }

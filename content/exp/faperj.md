@@ -1,6 +1,7 @@
 +++
 title = 'Bolsista FAPERJ'
 subtitle = 'Grupo de pesquisa em Escola, Esporte e Cultura'
+thirdtitle = 'jan de 2023 - o momento'
 date = 2024-07-13T01:50:41-03:00
 draft = false
 thumbnail = '/img/faperj.jfif'
