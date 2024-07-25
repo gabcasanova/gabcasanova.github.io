@@ -18,7 +18,7 @@ draft = false
 - experiência profissional com php e mysql, atuando em conjunto com wordpress
 - familiaridade com o ecossistema java, tendo atuado em projetos e desenvolvido aplicações java desktop, web backend (jsp) e mobile (android studio)
 - desenvolvimento de sites e blogs com SSGs como jekyll e hugo, com criação de temas abrangendo html/css/js e bootstrap
-- habilidade em versionamento de software e colaboração em equipe com git
+- habilidade em versionamento de software e colaboração em equipe com git e github
 
 {{< rawhtml >}}
     </div>
