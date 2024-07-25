@@ -3,22 +3,22 @@
     background-repeat: no-repeat;
     background-size: clamp(0px, 80%, 390px) auto;
     background-position: right top;
-
-
 }
 
 .socialmediabuttons {
     list-style-type: none;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .socialmediabuttons li {
-    display: inline-block;
+    margin: 10px;
 }
 
 .socialmediabuttons li img {
     max-width: 150px;
-    margin: 10px;
+    width: 100%;
     transition: 0.15s;
 }
 
