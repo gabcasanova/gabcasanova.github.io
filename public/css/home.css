@@ -1,0 +1,27 @@
+.bgindex {
+    background-image: url("/img/bg_index_trans.png");
+    background-repeat: no-repeat;
+    background-size: clamp(0px, 80%, 390px) auto;
+    background-position: right top;
+
+
+}
+
+.socialmediabuttons {
+    list-style-type: none;
+    text-align: center;
+}
+
+.socialmediabuttons li {
+    display: inline-block;
+}
+
+.socialmediabuttons li img {
+    max-width: 150px;
+    margin: 10px;
+    transition: 0.15s;
+}
+
+.socialmediabuttons li img:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
