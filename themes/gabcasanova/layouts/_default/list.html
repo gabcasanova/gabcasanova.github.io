@@ -28,7 +28,7 @@
           <h6 class="text-body-secondary">{{ .Params.thirdtitle }}</h6>
         {{ end }}
         
-        <p> {{ .Summary }}... <a class="readmore" href="{{ .RelPermalink }}"><strong><em>ler mais</em></strong></a> </p>
+        <p class="post-indent"> {{ .Summary }}... <a class="readmore" href="{{ .RelPermalink }}"><strong><em>ler mais</em></strong></a> </p>
 
         {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
       </div>
