@@ -13,11 +13,11 @@ draft = false
     </div>
 {{< /rawhtml >}}
 
-**técnico de informática formado pelo ISERJ/FAETEC**
+**técnico em informática formado pelo ISERJ/FAETEC**
 
 - familiaridade com o ecossistema Java, com participação em projetos e no desenvolvimento de aplicações desktop (Java SE), web backend (Java EE) e mobile (Android Studio).
-- desenvolvimento frontend com HTML, CSS, JavaScript, com conhecimento dos frameworks Bootstrap e JQuery para criar interfaces responsivas e funcionais.
-- experiência com PHP, desenvolvendo plugins e interfaces para sites WordPress.
+- desenvolvimento frontend com HTML, CSS, JavaScript, possuindo conhecimento dos frameworks Bootstrap e JQuery para criar interfaces responsivas e funcionais.
+- experiência profissional com PHP, desenvolvendo plugins e soluções dinâmicas para sites WordPress.
 - modelagem e desenvolvimento de banco de dados utilizando UML e MySQL.
 - versionamento de software e colaboração em equipe com Git e GitHub.
 
