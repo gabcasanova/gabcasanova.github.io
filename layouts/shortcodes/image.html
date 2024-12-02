@@ -1,0 +1,18 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" }}
+{{ $size := .Get "size" }}
+{{ $desc := .Get "desc" }}
+
+<div class="center m-3">
+    <figure class="figure">
+        <img
+            class="img-fluid"
+            src="{{ $src }}"
+            alt="{{ $alt }}"
+            decoding="async"
+            style="width: {{ $size }}px;"
+        />
+
+        <figcaption class="m-1 text-end figure-caption">{{ $desc }}</figcaption>
+    </figure>
+</div>
