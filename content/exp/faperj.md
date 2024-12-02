@@ -11,7 +11,7 @@ tags = ['word', 'office', 'serviços de ti']
 Fui contemplado com a bolsa Jovens Talentos no âmbito do projeto FAPERJ de Formação Continuada para Docentes de Educação Básica da FAETEC, integrando a equipe como aluno do ISERJ de 2022 até dezembro de 2024, quando concluí o ensino médio técnico.
 
 {{< rawhtml >}}
-    <div class="row justify-content-md-center mb-3 mt-1">
+    <div class="d-flex justify-content-center mb-3 mt-1">
     <div class="col-lg-8">
     <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
