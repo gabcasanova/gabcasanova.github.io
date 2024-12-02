@@ -13,12 +13,13 @@ draft = false
     </div>
 {{< /rawhtml >}}
 
-**estudante de informática pelo ISERJ/FAETEC, atualmente estagiando como desenvolvedor web wordpress na UERJ**
+**técnico de informática formado pelo ISERJ/FAETEC**
 
-- experiência profissional com php e mysql, atuando em conjunto com wordpress
-- familiaridade com o ecossistema java, tendo atuado em projetos e desenvolvido aplicações java desktop, web backend (jsp) e mobile (android studio)
-- desenvolvimento de sites e blogs com SSGs como jekyll e hugo, com criação de temas abrangendo html/css/js e bootstrap
-- habilidade em versionamento de software e colaboração em equipe com git e github
+- familiaridade com o ecossistema Java, com participação em projetos e no desenvolvimento de aplicações desktop (Java SE), web backend (Java EE) e mobile (Android Studio).
+- desenvolvimento frontend com HTML, CSS, JavaScript, com conhecimento dos frameworks Bootstrap e JQuery para criar interfaces responsivas e funcionais.
+- experiência com PHP, desenvolvendo plugins e interfaces para sites WordPress.
+- modelagem e desenvolvimento de banco de dados utilizando UML e MySQL.
+- versionamento de software e colaboração em equipe com Git e GitHub.
 
 {{< rawhtml >}}
     </div>
