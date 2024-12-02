@@ -1,7 +1,7 @@
 +++
 title = 'Instituto de Matemática e Estatística'
 subtitle = 'Estágio • UERJ - Universidade do Estado do Rio de Janeiro'
-thirdtitle = 'mar de 2024 - set de 2024'
+thirdtitle = 'mar de 2024 - set de 2024 • 7 meses'
 date = 2024-03-01T01:50:41-03:00
 draft = false
 thumbnail = '/img/ime.png'
@@ -16,7 +16,6 @@ Durante meu estágio no Instituto de Matemática e Estatística (IME) da UERJ, a
     size="550"
     desc="Tentando ser cool em um dos laboratórios do IME."
 >}}
-
 
 Essa experiência de sete meses foi a minha primeira vivência profissional, permitindo-me aplicar meus conhecimentos técnicos e expandir minhas habilidades com ferramentas como WordPress, PHP, Bootstrap, JQuery e MySQL. Além de reforçar meu aprendizado em desenvolvimento web, o estágio foi essencial para o meu crescimento pessoal e profissional, pois aprendi a trabalhar em equipe, lidar com desafios e buscar soluções eficazes para atender às necessidades do instituto.
 
