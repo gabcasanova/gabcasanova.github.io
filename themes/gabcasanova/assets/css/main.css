@@ -47,3 +47,8 @@ body {
 .center {
   text-align: center;
 }
+
+.textstroke {
+  background-color: rgba(0, 0, 0, .3);
+  text-shadow: 0px 0px 5px black;
+}
