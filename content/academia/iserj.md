@@ -61,7 +61,7 @@ O ISERJ não foi apenas um local de desenvolvimento técnico, mas também um esp
             <div class="carousel-item">
                 <img src="/img/academia/fotos_iserj/2022_3.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block textstroke">
-                    <h5>Novembro de 2024</h5>
+                    <h5>Novembro de 2022</h5>
                     <p>Grupo GPEEsC no ISERJ, que sediou o IX Seminário de Ed. Física Escolar</p>
                 </div>
             </div>
