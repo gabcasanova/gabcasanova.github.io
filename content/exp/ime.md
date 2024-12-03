@@ -8,7 +8,7 @@ thumbnail = '/img/ime.png'
 tags = ['wordpress', 'mysql', 'php', 'bootstrap', 'jquery', 'javascript', 'html-css3']
 +++
 
-Durante meu estágio no Instituto de Matemática e Estatística (IME) da UERJ, atuei principalmente na programação web backend e na manutenção do site do instituto. **Meu trabalho envolveu a criação de áreas internas do site voltadas para os professores e a secretaria, com integração dinâmica entre o banco de dados MySQL e a plataforma WordPress**. Também tive a oportunidade de desenvolver plugins e scripts personalizados em PHP, contribuindo para melhorar a funcionalidade e a interação do site.
+Durante meu estágio no Instituto de Matemática e Estatística (IME) da UERJ, atuei principalmente na programação web backend e na manutenção do [site do instituto](https://www.ime.uerj.br/). **Meu trabalho envolveu a criação de áreas internas do site voltadas para os professores e a secretaria, com integração dinâmica entre o banco de dados MySQL e a plataforma WordPress**. Também tive a oportunidade de desenvolver plugins e scripts personalizados em PHP, contribuindo para melhorar a funcionalidade e a interação do site.
 
 {{< image
     src="/img/ime_casanova.jpg"
