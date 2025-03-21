@@ -1,0 +1,10 @@
+{
+  "global": {
+    "navbar": {
+      "home": "home",
+      "education": "education",
+      "about": "about"
+    },
+    "footer": "Gabriel Casanova. All Rights Reserved."
+  }
+}
