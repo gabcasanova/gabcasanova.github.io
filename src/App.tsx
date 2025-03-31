@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import Start from "./pages/Start";
+import Home from "./pages/Home";
 import "./styles.css";
 
 import { HashRouter, Route, Routes } from "react-router";
@@ -13,7 +13,7 @@ function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route path="/" element={<Start />}/>
+        <Route path="/" element={<Home />}/>
       </Routes>
     </HashRouter>
   );
