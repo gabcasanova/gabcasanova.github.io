@@ -1,2 +1,19 @@
 {
+  "navbar": {
+    "title": "Gabriel Casanova",
+
+    "links": [
+      {"text": "home",        "url": "/"},
+      {"text": "formação",    "url": "/edu"},
+      {"text": "experiência", "url": "/exp"},
+      {"text": "sobre",       "url": "/about"}
+    ]
+  },
+
+  "footer": {
+    "text": "Todos os direitos reservados.",
+    "lang": "Língua: ",
+    "en": "Inglês",
+    "pt": "Português"
+  }
 }

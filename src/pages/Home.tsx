@@ -6,7 +6,7 @@ const Home = () => {
     return (
       <div>
         <Link to="/">
-          <div className="h-[250px] text-white"
+          <div className="h-[250px] text-white hover:brightness-90 transition duration-150"
                style={{backgroundImage: image, backgroundSize: "cover"}} />
           <p className="m-2 font-fredoka text-[18px] text-center">{ text }</p>
         </Link>
@@ -16,8 +16,11 @@ const Home = () => {
 
   return (
     <Page>
-      <div className="grid grid-cols-5 gap-4]">
-        { projectThumbnail("EduSyst", "url(/img/edusyst/4.png)") }
+      <h1 className="mb-10 uppercase font-fredoka">Web development</h1>
+
+      <div className="grid grid-cols-5 gap-4">
+        { projectThumbnail("PVic Games", "url(/img/pvic/thumb.png)") }
+        { projectThumbnail("EduSyst",    "url(/img/edusyst/thumb.png)") }
       </div>
     </Page>
   );

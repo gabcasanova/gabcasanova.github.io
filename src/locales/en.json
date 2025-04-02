@@ -3,13 +3,17 @@
     "title": "Gabriel Casanova",
 
     "links": [
-      {"text": "home",      "url": "/"},
-      {"text": "education", "url": "/edu"},
-      {"text": "about",     "url": "/about"}
+      {"text": "home",       "url": "/"},
+      {"text": "education",  "url": "/edu"},
+      {"text": "experience", "url": "/exp"},
+      {"text": "about",      "url": "/about"}
     ]
   },
 
   "footer": {
-    "text": "Gabriel Casanova. All rights reserved."
+    "text": "All rights reserved.",
+    "lang": "Language: ",
+    "en": "English",
+    "pt": "Portuguese"
   }
 }
