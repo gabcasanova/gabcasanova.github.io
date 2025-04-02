@@ -7,7 +7,7 @@ const Page = (props: PropsWithChildren) => {
   const currentYear = new Date().getFullYear();
 
   const langSelectAttr = "hover:underline hover:cursor-pointer hover:font-bold";
-  const langSelectImgAttr = "w-[25px] h-fit mr-1";
+  const langSelectImgAttr = "w-[25px] h-fit mr-1 rounded-2xl";
 
   return (
     <div className="min-h-screen flex flex-col items-center">
@@ -26,7 +26,7 @@ const Page = (props: PropsWithChildren) => {
         <div className="flex justify-center items-center gap-3">
           <p>{ t("footer.lang") }</p>
 
-          <div className="flex items-center">
+          <div className="flex items-center"> {/* English */}
             <img className={langSelectImgAttr} src="https://flagsapi.com/US/flat/64.png" />
             <p className={langSelectAttr}
                onClick={() => i18n.changeLanguage("en")} >
@@ -34,7 +34,7 @@ const Page = (props: PropsWithChildren) => {
             </p>
           </div>
 
-          <div className="flex items-center">
+          <div className="flex items-center"> {/* Portuguese */}
             <img className={langSelectImgAttr} src="https://flagsapi.com/BR/flat/64.png" />
             <p className={langSelectAttr}
                onClick={() => i18n.changeLanguage("pt")}>
