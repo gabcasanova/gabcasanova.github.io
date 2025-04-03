@@ -10,6 +10,25 @@
     ]
   },
 
+  "pages": {
+    "home": {
+      "title": "Portfolio de desenvolvimento web"
+    },
+
+    "project": {
+      "title": "Projeto"
+    }
+  },
+
+  "projects": {
+    "edusyst": {
+      "name": "EduSyst"
+    },
+    "pvic": {
+      "name": "PVic Games Website"
+    }
+  },
+
   "footer": {
     "text": "Todos os direitos reservados.",
     "lang": "Língua: ",

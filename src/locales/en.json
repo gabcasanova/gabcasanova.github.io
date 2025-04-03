@@ -10,6 +10,47 @@
     ]
   },
 
+  "pages": {
+    "home": {
+      "title": "Web development Portfolio"
+    },
+
+    "project": {
+      "title": "Project",
+      "stack": "Tech stack",
+      "links": "Links",
+      "git": "GitHub",
+      "site": "Website"
+    }
+  },
+
+  "projects": {
+    "edusyst": {
+      "name": "EduSyst"
+    },
+    "pvic": {
+      "name": "PVic Games Website",
+      "type": "Freelance project",
+      "year": "2025",
+      "text": "I developed the PVic Games website as a freelance project for the indie game studio PVic Games. The design, inspired by the works of Brazilian artist Ziraldo, was created by me with guidance from the client to match their vision. The website is a responsive, static single-page application built with Vite, React, TypeScript, and Tailwind. It features smooth navigation using React Router and supports both the Portuguese and English languages with i18n integration. Modern animations, implemented with Animate.css and AOS, enhance the user experience. The ''about'' page includes an interactive 3D model powered by the Three.js WebGL library, adding a dynamic and engaging element to the site.",
+      "stack": "vite,ts,react,tailwind",
+      "links": {
+        "site": "https://pvicvg.com/",
+        "git": "https://github.com/pvicgames/pvicgames.github.io"
+      },
+      "pics": [
+        "/img/pvic/1.png",
+        "/img/pvic/2.png",
+        "/img/pvic/3.png",
+        "/img/pvic/4.png",
+        "/img/pvic/5.png",
+        "/img/pvic/6.png",
+        "/img/pvic/7.png",
+        "/img/pvic/8.png"
+      ]
+    }
+  },
+
   "footer": {
     "text": "All rights reserved.",
     "lang": "Language: ",
