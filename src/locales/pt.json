@@ -3,33 +3,82 @@
     "title": "Gabriel Casanova",
 
     "links": [
-      {"text": "home",        "url": "/"},
-      {"text": "formação",    "url": "/edu"},
-      {"text": "experiência", "url": "/exp"},
-      {"text": "sobre",       "url": "/about"}
+      { "text": "home", "url": "/" },
+      { "text": "formação", "url": "/edu" },
+      { "text": "experiência", "url": "/exp" },
+      { "text": "sobre", "url": "/about" }
     ]
   },
 
   "pages": {
     "home": {
-      "title": "Portfolio de desenvolvimento web"
+      "title": "Portfólio de Desenvolvimento Web"
     },
 
     "project": {
-      "title": "Projeto"
+      "title": "Projeto",
+      "stack": "Tecnologias",
+      "links": "Links",
+      "git": "GitHub",
+      "site": "Site",
+      "docs": "Documentação"
+    },
+
+    "notfound": {
+      "text": "Página não encontrada.",
+      "return": "Voltar para a página inicial?"
     }
   },
 
   "projects": {
     "pvic": {
-      "name": "PVic Games Website"
+      "name": "PVic Games Website",
+      "type": "Projeto freelancer",
+      "year": "2025",
+      "text": "Desenvolvi o site da PVic Games como um projeto freelance para o estúdio de desenvolvimento de jogos indie PVic Games. O design, inspirado nas obras do artista brasileiro Ziraldo, foi criado por mim com a orientação do cliente para atender à sua visão. O site é uma single-page application (SPA), desenvolvido com Vite, React, TypeScript e Tailwind. Ele oferece navegação fluida utilizando React Router e suporte aos idiomas português e inglês por meio da integração com a biblioteca i18n. Animações modernas, implementadas com Animate.css e AOS, aprimoram a experiência do usuário. A página 'sobre' inclui um modelo 3D interativo implementado com a biblioteca WebGL Three.js, adicionando um elemento dinâmico e divertido ao site, aumentando o engajamento do usuário.",
+      "stack": "vite,ts,react,tailwind",
+      "links": {
+        "site": "https://pvicvg.com/",
+        "git": "https://github.com/pvicgames/pvicgames.github.io"
+      },
+      "pics": [
+        "/img/pvic/1.png",
+        "/img/pvic/2.png",
+        "/img/pvic/3.png",
+        "/img/pvic/4.png",
+        "/img/pvic/5.png",
+        "/img/pvic/6.png",
+        "/img/pvic/7.png",
+        "/img/pvic/8.png"
+      ]
+    },
+    "edusyst": {
+      "name": "EduSyst",
+      "type": "Projeto acadêmico",
+      "year": "2024",
+      "text": "EduSyst é um sistema de informações estudantis (SIS) projetado para modernizar e otimizar a administração escolar de escolas públicas na cidade do Rio de Janeiro, Brasil. Desenvolvido como meu trabalho de conclusão de curso no ISERJ/FAETEC, foi a culminação dos meus estudos e me garantiu o diploma de técnico em informática. <br/> O sistema conecta alunos, pais, professores e administradores por meio de uma plataforma digital unificada, aprimorando a comunicação e a organização. O EduSyst é composto por três aplicativos interconectados, cada um adaptado às necessidades dos diferentes usuários e alimentado por um banco de dados MySQL centralizado. <br/><br/> - O <strong>Aplicativo Desktop EduSyst</strong>, desenvolvido com Java SE, Swing e a API JDBC, foi projetado para administradores escolares. Ele gerencia cadastros de alunos e professores, organização de cursos, cronogramas e geração de relatórios, garantindo operações institucionais eficientes. <br/> - O <strong>Aplicativo Web EduSyst</strong>, desenvolvido com Java Server Pages (JSP), HTML, CSS, Bootstrap e JavaScript, atende a alunos, professores e pais. Os professores podem gerenciar notas, históricos escolares e avaliações dos alunos, além de se comunicarem com os estudantes por meio de um sistema de chat de classe. Pais e alunos têm acesso a horários de aula, tarefas e informações dos professores. <br/> - O <strong>Aplicativo Mobile EduSyst</strong>, construído com Android Studio (Java) e PHP para conectividade MySQL, oferece uma experiência nativa no Android. Ele fornece aos alunos, professores e pais as mesmas funcionalidades essenciais do aplicativo web, garantindo acessibilidade em qualquer lugar. <br/><br/> O EduSyst foi um desafio que me levou a aplicar tudo o que aprendi, desde bancos de dados até desenvolvimento fullstack. Ver o projeto se concretizar reforçou minha paixão por criar softwares que resolvem problemas reais.",
+      "stack": "html,css,bootstrap,js,java,mysql,androidstudio,php",
+      "links": {
+        "git": "https://github.com/gabcasanova/EduSyst",
+        "docs": "https://drive.google.com/file/d/12UIDfrynj5Vg_2uMZ0yGxDLYsnEQFWQT"
+      },
+      "pics": [
+        "/img/edusyst/1.png",
+        "/img/edusyst/2.png",
+        "/img/edusyst/3.png",
+        "/img/edusyst/4.png",
+        "/img/edusyst/5.png",
+        "/img/edusyst/6.png",
+        "/img/edusyst/7.png",
+        "/img/edusyst/8.png"
+      ]
     }
   },
 
   "footer": {
     "text": "Todos os direitos reservados.",
-    "lang": "Língua: ",
+    "lang": "Idioma: ",
     "en": "Inglês",
     "pt": "Português"
   }
-}
+} 

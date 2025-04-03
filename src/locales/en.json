@@ -20,7 +20,8 @@
       "stack": "Tech stack",
       "links": "Links",
       "git": "GitHub",
-      "site": "Website"
+      "site": "Website",
+      "docs": "Documentation"
     },
 
     "notfound": {
@@ -49,6 +50,27 @@
         "/img/pvic/6.png",
         "/img/pvic/7.png",
         "/img/pvic/8.png"
+      ]
+    },
+    "edusyst": {
+      "name": "EduSyst",
+      "type": "Academic project",
+      "year": "2024",
+      "text": "EduSyst is a student information system (SIS) designed to modernize and streamline school administration in the public schools of Rio de Janeiro, Brazil. Developed as my final academic project at ISERJ, it was the culmination of my studies in Information Technology and earned me my associate degree. <br/> The system connects students, parents, teachers, and administrators through a unified digital platform, enhancing communication and organization. EduSyst consists of three interconnected applications, each tailored to different user needs and powered by a centralized MySQL database. <br/><br/> - The <strong> EduSyst Desktop App</strong>, built with Java SE, Swing, and the JDBC API, is designed for school administrators. It handles student and teacher registrations, course management, scheduling, and report generation, ensuring smooth institutional operations. <br/> - The <strong>EduSyst Web App</strong>, developed using Java Server Pages (JSP), HTML, CSS, Bootstrap, and JavaScript, serves students, teachers, and parents. Teachers can manage grades, transcripts, and student assessments while also communicating with students through a class chat system. Parents and students can access class schedules, assignments, and teacher information. <br/> - The <strong>EduSyst Mobile App</strong>, built with Android Studio (Java) and PHP for MySQL connectivity, offers a native mobile experience. It provides students, teachers, and parents with the same essential functionalities as the web app, ensuring accessibility on the go. <br/><br/> EduSyst was a challenge that pushed me to apply everything I had learned, from databases to fullstack development. Seeing it come together reinforced my passion for building software that solves real problems.",
+      "stack": "html,css,bootstrap,js,java,mysql,androidstudio,php",
+      "links": {
+        "git": "https://github.com/gabcasanova/EduSyst",
+        "docs": "https://drive.google.com/file/d/12UIDfrynj5Vg_2uMZ0yGxDLYsnEQFWQT"
+      },
+      "pics": [
+        "/img/edusyst/1.png",
+        "/img/edusyst/2.png",
+        "/img/edusyst/3.png",
+        "/img/edusyst/4.png",
+        "/img/edusyst/5.png",
+        "/img/edusyst/6.png",
+        "/img/edusyst/7.png",
+        "/img/edusyst/8.png"
       ]
     }
   },
