@@ -3,18 +3,27 @@ import Page from "../components/Page"
 
 // libraries
 import { Trans, useTranslation } from "react-i18next"
-import { useParams } from "react-router"
+import { useNavigate, useParams } from "react-router"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, IconDefinition } from "@fortawesome/free-brands-svg-icons"
 import { faEarthAmericas } from "@fortawesome/free-solid-svg-icons"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 const Project = () => {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+  const navigate = useNavigate()
 
   // Get project from URL parameter.
   const params = useParams()
   const currentProject = `projects.${params.projectName}`
+
+  // Redirect if project not found in JSON.
+  useEffect(() => {
+    if (!i18n.exists(currentProject)) {
+      navigate("/404", { replace: true })
+    }
+  })
+  
 
   // Get pictures array from JSON.
   const pics = t(`${currentProject}.pics`, { returnObjects: true });
@@ -41,7 +50,8 @@ const Project = () => {
       <div className="mt-10 grid grid-cols-4 gap-5">
         {projectPics.map((pic, index) => (
           <div className="brightness-90 hover:brightness-100 hover:cursor-pointer duration-100"
-              onClick={() => setCurrentPic(pic)}>
+               onClick={() => setCurrentPic(pic)}
+               key={index} >
             <img className="w-fit h-[50px] xl:h-[84px] m-auto" 
                 src={pic}
                 alt={`Project image ${index + 1}`} 

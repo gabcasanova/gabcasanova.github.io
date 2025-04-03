@@ -21,9 +21,6 @@
   },
 
   "projects": {
-    "edusyst": {
-      "name": "EduSyst"
-    },
     "pvic": {
       "name": "PVic Games Website"
     }
