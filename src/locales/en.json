@@ -21,13 +21,15 @@
       "links": "Links",
       "git": "GitHub",
       "site": "Website"
+    },
+
+    "notfound": {
+      "text": "Page not found.",
+      "return": "Return home?"
     }
   },
 
   "projects": {
-    "edusyst": {
-      "name": "EduSyst"
-    },
     "pvic": {
       "name": "PVic Games Website",
       "type": "Freelance project",
