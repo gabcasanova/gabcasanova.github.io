@@ -79,7 +79,7 @@ const Project = () => {
           </p>
 
           {/* Main Text */}
-          <p className="mt-7 text-justify font-fredoka ">
+          <p className="mt-7 text-justify font-fredoka break-words xl:break-normal">
             <Trans i18nKey={t(`${currentProject}.text`)} components={{ br: <br /> }} />
           </p>
 
