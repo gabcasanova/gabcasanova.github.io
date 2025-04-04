@@ -17,6 +17,7 @@
 
     "project": {
       "title": "Projeto",
+      "return": "Voltar",
       "stack": "Tecnologias",
       "links": "Links",
       "git": "GitHub",
