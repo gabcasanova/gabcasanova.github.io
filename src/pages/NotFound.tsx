@@ -1,5 +1,6 @@
-import { useTranslation } from "react-i18next"
 import Page from "../components/Page"
+
+import { useTranslation } from "react-i18next"
 import { Link } from "react-router"
 
 const NotFound = () => {

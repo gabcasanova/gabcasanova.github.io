@@ -1,6 +1,7 @@
+import Page from "../components/Page";
+
 import { Link } from "react-router";
 import { useTranslation } from "react-i18next";
-import Page from "../components/Page";
 
 const Home = () => {
   const { t } = useTranslation()
