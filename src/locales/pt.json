@@ -4,8 +4,6 @@
 
     "links": [
       { "text": "home", "url": "/" },
-      { "text": "formação", "url": "/edu" },
-      { "text": "experiência", "url": "/exp" },
       { "text": "sobre", "url": "/about" }
     ]
   },
