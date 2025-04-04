@@ -6,7 +6,7 @@ import { Trans, useTranslation } from "react-i18next"
 import { useNavigate, useParams } from "react-router"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, IconDefinition } from "@fortawesome/free-brands-svg-icons"
-import { faBook, faEarthAmericas } from "@fortawesome/free-solid-svg-icons"
+import { faBook, faEarthAmericas, faFilm } from "@fortawesome/free-solid-svg-icons"
 import { useEffect, useState } from "react"
 
 const Project = () => {
@@ -107,6 +107,7 @@ const Project = () => {
             { projectLink(faEarthAmericas, t("pages.project.site"), `${currentProject}.links.site`) }
             { projectLink(faGithub, t("pages.project.git"), `${currentProject}.links.git`) }
             { projectLink(faBook, t("pages.project.docs"), `${currentProject}.links.docs`) }
+            { projectLink(faFilm, t("pages.project.vid"), `${currentProject}.links.vid`) }
           </div>
         </div>
       </div>
