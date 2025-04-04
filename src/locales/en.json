@@ -17,6 +17,7 @@
 
     "project": {
       "title": "Project",
+      "return": "Return",
       "stack": "Tech stack",
       "links": "Links",
       "git": "GitHub",

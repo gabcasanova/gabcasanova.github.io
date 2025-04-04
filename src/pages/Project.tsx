@@ -3,7 +3,7 @@ import Page from "../components/Page"
 
 // libraries
 import { Trans, useTranslation } from "react-i18next"
-import { useNavigate, useParams } from "react-router"
+import { Link, useNavigate, useParams } from "react-router"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, IconDefinition } from "@fortawesome/free-brands-svg-icons"
 import { faBook, faEarthAmericas, faFilm } from "@fortawesome/free-solid-svg-icons"
@@ -67,9 +67,16 @@ const Project = () => {
   return (
     <Page>
       {/* Page title */}
-      <h1 className="mb-10 uppercase font-fredoka text-center xl:text-left">
-        { t("pages.project.title") }
-      </h1>
+      <div className="mb-10 flex">
+        <h1 className="mr-3 uppercase font-fredoka text-center xl:text-left">
+          { t("pages.project.title") }
+        </h1>
+        <Link className="lowercase font-fredoka text-blue-500 text-center xl:text-left 
+                         hover:font-bold hover:underline"
+              to="/">
+          ({ t("pages.project.return") })
+        </Link>
+      </div>
       
       {/* Project */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
