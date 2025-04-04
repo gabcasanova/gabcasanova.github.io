@@ -67,7 +67,7 @@ const Project = () => {
   return (
     <Page>
       {/* Page title */}
-      <div className="mb-10 flex">
+      <div className="mb-10 flex justify-start">
         <h1 className="mr-3 uppercase font-fredoka text-center xl:text-left">
           { t("pages.project.title") }
         </h1>
