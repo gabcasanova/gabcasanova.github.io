@@ -20,3 +20,7 @@
   --font-coolvetica: "Coolvetica", "sans-serif";
   --font-fredoka:    "Fredoka", "sans-serif";
 }
+
+body {
+  overflow-y: scroll; /* Show scrollbars */
+}
