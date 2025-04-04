@@ -26,6 +26,12 @@
       "vid": "Demo Video"
     },
 
+    "about": {
+      "title": "About",
+      "titleBig": "About Me",
+      "text": "Hey there! I’m someone who enjoys building things that make life a little smoother — whether that’s creating smart, user-friendly web experiences or finding better ways to organize information behind the scenes. I like blending creativity with practicality, and I'm always up for solving problems in ways that feel intuitive and efficient. I enjoy making things that feel simple, thoughtful, and useful — for both the people using them and the people building them."
+    },
+
     "notfound": {
       "text": "Page not found.",
       "return": "Return home?"

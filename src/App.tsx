@@ -7,6 +7,7 @@ import i18n from "./i18n";
 import Home from "./pages/Home";
 import Project from "./pages/Project";
 import NotFound from "./pages/NotFound";
+import About from "./pages/About";
 
 function App() {
   useEffect(() => {
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/project/:projectName" element={<Project />} />
+        <Route path="/about" element={<About />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </HashRouter>
