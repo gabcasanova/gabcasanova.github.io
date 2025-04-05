@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router";
+import NavbarMobile from "./NavbarMobile";
 
 const Navbar = () => {
   const { t } = useTranslation();
@@ -11,7 +12,11 @@ const Navbar = () => {
   const pageLinks = Array.isArray(links) ? links : Object.values(links); 
 
   function navbarMobile() {
-    return <div className="xl:hidden">Navbar mobile</div>;
+    return (
+      <div className="xl:hidden">
+        <NavbarMobile />
+      </div>
+    );
   }
 
   // DESKTOP NAVBAR...
