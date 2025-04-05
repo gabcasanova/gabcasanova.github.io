@@ -9,6 +9,7 @@ import Project from "./pages/Project";
 import NotFound from "./pages/NotFound";
 import About from "./pages/About";
 import Experience from "./pages/Experience";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   useEffect(() => {
@@ -17,6 +18,8 @@ function App() {
 
   return (
     <HashRouter>
+      <ScrollToTop />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/project/:projectName" element={<Project />} />
