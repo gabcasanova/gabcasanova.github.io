@@ -17,10 +17,10 @@ const Experience = () => {
   const { t } = useTranslation()
 
   // Get information from JSON.
-  const companies = t("pages.experience.companies", { returnObjects: true })
+  const companies = t("experiences.companies", { returnObjects: true })
   const companyListing = Array.isArray(companies) ? companies : Object.values(companies);
 
-  const academic = t("pages.experience.academic", { returnObjects: true })
+  const academic = t("experiences.academic", { returnObjects: true })
   const academicListing = Array.isArray(academic) ? academic : Object.values(academic); 
 
   // Template experience div.
