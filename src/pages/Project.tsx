@@ -23,7 +23,6 @@ const Project = () => {
       navigate("/404", { replace: true })
     }
   })
-  
 
   // Get pictures array from JSON.
   const pics = t(`${currentProject}.pics`, { returnObjects: true });
