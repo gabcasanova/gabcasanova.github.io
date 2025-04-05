@@ -27,8 +27,9 @@ const Home = () => {
 
       {/* Projects */}
       <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-5 gap-4">
-        { projectThumbnail("PVic Games", "url(/img/pvic/thumb.png)",    "pvic") }
-        { projectThumbnail("EduSyst",    "url(/img/edusyst/thumb.png)", "edusyst") }
+        { projectThumbnail("Portfolio",  "url(/img/portfolio/thumb.png)",    "portfolio") }
+        { projectThumbnail("PVic Games", "url(/img/pvic/thumb.png)",         "pvic") }
+        { projectThumbnail("EduSyst",    "url(/img/edusyst/thumb.png)",      "edusyst") }
       </div>
     </Page>
   );

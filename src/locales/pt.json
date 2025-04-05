@@ -44,6 +44,22 @@
   },
 
   "projects": {
+    "portfolio": {
+      "name": "gabrielcasanova.com.br",
+      "type": "Projeto pessoal",
+      "year": "2025",
+      "text": "Meu site pessoal. O site é uma single-page application (SPA), desenvolvido com Vite, React, TypeScript e Tailwind. Ele oferece navegação fluida utilizando React Router e suporte aos idiomas português e inglês por meio da integração com a biblioteca i18n.",
+      "stack": "vite,ts,react,tailwind",
+      "links": {
+        "site": "https://gabrielcasanova.com.br/",
+        "git": "https://github.com/gabcasanova/gabcasanova.github.io"
+      },
+      "pics": [
+        "/img/portfolio/1.png",
+        "/img/portfolio/2.png",
+        "/img/portfolio/3.png"
+      ]
+    },
     "pvic": {
       "name": "PVic Games Website",
       "type": "Projeto freelancer",
