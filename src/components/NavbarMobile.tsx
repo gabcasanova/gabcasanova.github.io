@@ -52,7 +52,7 @@ const NavbarMobile = () => {
       <div className="flex justify-between items-center p-3">
         <button
           onClick={handleToggleMenu}
-          className="text-2xl font-bold text-white"
+          className="text-2xl font-bold text-black"
         >
           ☰
         </button>
