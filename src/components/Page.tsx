@@ -14,7 +14,7 @@ const Page = (props: PropsWithChildren) => {
       <Navbar />
 
       {/* Page content */}
-      <main className="flex-grow flex flex-col w-screen max-w-[1500px] p-5 xl:p-10">
+      <main className="mt-20 xl:mt-0 flex-grow flex flex-col w-screen max-w-[1500px] p-5 xl:p-10">
         {props.children}
       </main>
 
