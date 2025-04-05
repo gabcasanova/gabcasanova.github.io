@@ -4,6 +4,7 @@
 
     "links": [
       { "text": "home", "url": "/" },
+      { "text": "experiência", "url": "/exp" },
       { "text": "sobre", "url": "/about" }
     ]
   },
@@ -24,6 +25,57 @@
       "vid": "Vídeo Demo"
     },
 
+    "experience": {
+      "title": "Experiência",
+      "education": "Educação",
+      "career": "Carreira",
+
+      "academic": [
+        {
+          "institution": "UERJ - Universidade do Estado do Rio de Janeiro",
+          "img": "/img/logos/uerj.png",
+          "date": "ago/2025 - até agora",
+          "location": "Rio de Janeiro, Brasil",
+          "role": "Bacharelado em Ciência da Computação",
+          "text": "Cursando."
+        },
+        {
+          "institution": "ISERJ - Instituto Superior de Educação do Rio de Janeiro",
+          "img": "/img/logos/iserj.png",
+          "date": "mar/2022 - nov/2024 • 3 anos",
+          "location": "Rio de Janeiro, Brasil",
+          "role": "Ensino Médio Técnico em Informática",
+          "text": "Durante meus três anos de formação técnica no ISERJ, desenvolvi habilidades sólidas em programação, desenvolvimento de sistemas e modelagem de dados. Trabalhei com desenvolvimento web front-end (HTML, CSS, JavaScript, Bootstrap) e back-end (Java EE, JSP, PHP), integrando bancos de dados MySQL. Também adquiri experiência em modelagem de sistemas com UML, desenvolvimento de aplicações desktop com Java SE e desenvolvimento mobile para Android com Java e Android Studio."
+        }
+      ],
+      "companies": [
+        {
+          "institution": "PVic Games",
+          "img": "/img/logos/pvic.png",
+          "date": "dez/2024 - até agora",
+          "location": "Remoto",
+          "role": "Desenvolvedor Web Freelancer (React/TypeScript)",
+          "text": "Atuei como desenvolvedor freelancer na criação do site oficial do estúdio de jogos indie PVic Games (http://pvicvg.com/). O design, inspirado nas obras do artista brasileiro Ziraldo, foi criado por mim em colaboração com o cliente para refletir sua visão. O site é uma single-page application (SPA), responsiva, construída com Vite, React, TypeScript e Tailwind CSS."
+        },
+        {
+          "institution": "IME/UERJ - Instituto de Matemática e Estatística",
+          "img": "/img/logos/ime.png",
+          "date": "mar/2024 - set/2024 • 7 meses",
+          "location": "Rio de Janeiro, Brasil • Presencial",
+          "role": "Estagiário de Desenvolvimento Web (WordPress/PHP)",
+          "text": "Programação web backend e manutenção do site do instituto. Desenvolvimento de áreas internas do site para os professores e a secretaria do instituto, auxiliando na integração de outros bancos de dados institucionais ao banco de dados principal em MySQL. Também desenvolvi plugins e scripts personalizados em PHP para a back-end do WordPress."
+        },
+        {
+          "institution": "FAPERJ",
+          "img": "/img/logos/faperj.png",
+          "date": "jan/2023 - dez/2024 • 2 anos",
+          "location": "Rio de Janeiro, Brasil • Híbrido",
+          "role": "Bolsista de Pré-Iniciação Científica",
+          "text": "Bolsista no GPEEsC (Grupo de Pesquisa em Escola, Esporte e Cultura), prestando suporte de TI, incluindo configuração de equipamentos, suporte técnico e transcrição de documentos utilizando ferramentas do pacote Office."
+        }
+      ]
+    },
+
     "about": {
       "title": "Sobre",
       "titleBig": "Sobre Mim",
@@ -41,7 +93,7 @@
       "name": "PVic Games Website",
       "type": "Projeto freelancer",
       "year": "2025",
-      "text": "Desenvolvi o site da PVic Games como um projeto freelance para o estúdio de desenvolvimento de jogos indie PVic Games. O design, inspirado nas obras do artista brasileiro Ziraldo, foi criado por mim com a orientação do cliente para atender à sua visão. O site é uma single-page application (SPA), desenvolvido com Vite, React, TypeScript e Tailwind. Ele oferece navegação fluida utilizando React Router e suporte aos idiomas português e inglês por meio da integração com a biblioteca i18n. Animações modernas, implementadas com Animate.css e AOS, aprimoram a experiência do usuário. A página 'sobre' inclui um modelo 3D interativo implementado com a biblioteca WebGL Three.js, adicionando um elemento dinâmico e divertido ao site, aumentando o engajamento do usuário.",
+      "text": "Atuei como desenvolvedor freelancer na criação do site oficial do estúdio de jogos indie PVic Games. O design, inspirado nas obras do artista brasileiro Ziraldo, foi criado por mim com a orientação do cliente para atender à sua visão. O site é uma single-page application (SPA), desenvolvido com Vite, React, TypeScript e Tailwind. Ele oferece navegação fluida utilizando React Router e suporte aos idiomas português e inglês por meio da integração com a biblioteca i18n. Animações modernas, implementadas com Animate.css e AOS, aprimoram a experiência do usuário. A página 'sobre' inclui um modelo 3D interativo implementado com a biblioteca WebGL Three.js, adicionando um elemento dinâmico e divertido ao site, aumentando o engajamento do usuário.",
       "stack": "vite,ts,react,tailwind",
       "links": {
         "site": "https://pvicvg.com/",
