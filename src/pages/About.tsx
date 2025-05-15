@@ -41,7 +41,9 @@ const About = () => {
           <div>
             { socialLink("GitHub",    "https://github.com/gabcasanova") }
             { socialLink("LinkedIn",  "https://www.linkedin.com/in/gbcasanova/") }
+            { socialLink("Instagram", "https://www.instagram.com/gbcasanova_dev/") }
             { socialLink("X/Twitter", "https://x.com/gabcasanova_dev") }
+            { socialLink("Medium",    "https://gbcasanova.medium.com/") }
             { socialLink("Email",     "mailto:gabrielcasanova.contato@gmail.com") }
           </div>
         </div>
