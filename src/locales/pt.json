@@ -130,7 +130,7 @@
       {
         "institution": "PVic Games",
         "img": "/img/logos/pvic.png",
-        "date": "dez/2024 - até agora",
+        "date": "dez/2024 - abr/2025 • 5 meses",
         "location": "Remoto",
         "role": "Desenvolvedor Web Freelancer (React/TypeScript)",
         "text": "Atuei como desenvolvedor freelancer na criação do site oficial do estúdio de jogos indie PVic Games (http://pvicvg.com/). O design, inspirado nas obras do artista brasileiro Ziraldo, foi criado por mim em colaboração com o cliente para refletir sua visão. O site é uma single-page application (SPA), responsiva, construída com Vite, React, TypeScript e Tailwind CSS."
@@ -138,7 +138,7 @@
       {
         "institution": "IME/UERJ - Instituto de Matemática e Estatística",
         "img": "/img/logos/ime.png",
-        "date": "mar/2024 - set/2024 • 7 meses",
+        "date": "mar/2024 - nov/2024 • 9 meses",
         "location": "Rio de Janeiro, Brasil • Presencial",
         "role": "Estagiário de Desenvolvimento Web (WordPress/PHP)",
         "text": "Programação web backend e manutenção do site do instituto. Desenvolvimento de áreas internas do site para os professores e a secretaria do instituto, auxiliando na integração de outros bancos de dados institucionais ao banco de dados principal em MySQL. Também desenvolvi plugins e scripts personalizados em PHP para a back-end do WordPress."
