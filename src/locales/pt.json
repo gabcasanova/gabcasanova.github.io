@@ -34,7 +34,7 @@
     "about": {
       "title": "Sobre",
       "titleBig": "Sobre Mim",
-      "text": "Olá! Sou apaixonado por criar coisas que tornam o dia a dia mais fácil — seja desenvolvendo experiências web intuitivas ou encontrando formas mais eficientes de organizar informações. Gosto de unir criatividade com praticidade e estou sempre em busca de soluções simples, funcionais e úteis — tanto para quem usa quanto para quem desenvolve."
+      "text": "Olá! Sou uma pessoa que gosta de trabalhar entre criatividade e tecnologia. Eu gosto de misturar imaginação com praticidade e estou sempre buscando maneiras intuitivas e eficientes de resolver problemas. Tenho prazer em criar coisas que sejam simples, bem pensadas e úteis... tanto para quem usa quanto para quem desenvolve."
     },
 
     "notfound": {
@@ -127,6 +127,22 @@
       }
     ],
     "companies": [
+      {
+        "institution": "PVic Games",
+        "img": "/img/logos/pvic.png",
+        "date": "jul/2025 - atualmente",
+        "location": "Remoto",
+        "role": "Produtor de Jogos & Designer Narrativo",
+        "text": "Atualmente trabalho como Produtor de Jogos na PVic Games, um estúdio indie de 6 pessoas. Minha responsabilidade principal é organizar e coordenar o processo de desenvolvimento dos jogos. Auxilio no planejamento do nosso roadmap, na gestão de prioridades da equipe e na garantia de uma boa comunicação entre todas as áreas, desde programação até arte e design. Em eventos e conferências, represento o estúdio e também participo do desenvolvimento narrativo dos jogos, contribuindo com a criação de personagens, construção de histórias e desenvolvimento do universo ficcional."
+      },
+      {
+        "institution": "PVic Games",
+        "img": "/img/logos/pvic.png",
+        "date": "abr/2025 - jul/2025 • 4 meses",
+        "location": "Remoto",
+        "role": "Desenvolvedor de Jogos (GML / GameMaker)",
+        "text": "Como Desenvolvedor de Jogos na PVic Games, contribuí para o desenvolvimento de ARTIUS, um platformer 2D indie, por meio de programação na GameMaker Engine usando GameMaker Language (GML). Meu trabalho envolveu a implementação e o refinamento de mecânicas centrais de gameplay, correção de bugs e suporte aos desenvolvedores principais para garantir um fluxo de desenvolvimento eficiente."
+      },
       {
         "institution": "PVic Games",
         "img": "/img/logos/pvic.png",
