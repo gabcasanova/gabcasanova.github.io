@@ -44,6 +44,26 @@
   },
 
   "projects": {
+    "lucia": {
+      "name": "Portfolio de Lucia Ippolito",
+      "type": "Projeto freelancer",
+      "year": "2025",
+      "text": "Portfolio da jornalista brasileira Lucia Ippolito. O site é uma single-page application (SPA), desenvolvido com Vite, React, TypeScript e Tailwind. É alimentado por conteúdo estruturado em JSON, permitindo que a cliente atualize e expanda seções facilmente sem modificar o código. Ele oferece navegação fluida utilizando React Router e suporte à localização por meio da integração com a biblioteca i18n.",
+      "stack": "vite,ts,react,tailwind",
+      "links": {
+        "site": "https://luciaippolito.github.io/",
+        "git":  "https://github.com/luciaippolito/luciaippolito.github.io"
+      },
+      "pics": [
+        "/img/lucia/1.png",
+        "/img/lucia/2.png",
+        "/img/lucia/3.png",
+        "/img/lucia/4.png",
+        "/img/lucia/5.png",
+        "/img/lucia/6.png",
+        "/img/lucia/7.png"
+      ]
+    },
     "portfolio": {
       "name": "gabrielcasanova.com.br",
       "type": "Projeto pessoal",

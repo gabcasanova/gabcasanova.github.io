@@ -44,6 +44,26 @@
   },
 
   "projects": {
+    "lucia": {
+      "name": "Lucia Ippolito's Portfolio Site",
+      "type": "Freelance Project",
+      "year": "2025",
+      "text": "Portfolio website for Brazilian journalist Lucia Ippolito. The website is a responsive, static single-page application built with Vite, React, TypeScript, and Tailwind. The site is powered by structured JSON-based content, allowing the client to easily update and expand sections without modifying code. It features smooth navigation using React Router and supports localization with i18n integration.",
+      "stack": "vite,ts,react,tailwind",
+      "links": {
+        "site": "https://luciaippolito.github.io/",
+        "git":  "https://github.com/luciaippolito/luciaippolito.github.io"
+      },
+      "pics": [
+        "/img/lucia/1.png",
+        "/img/lucia/2.png",
+        "/img/lucia/3.png",
+        "/img/lucia/4.png",
+        "/img/lucia/5.png",
+        "/img/lucia/6.png",
+        "/img/lucia/7.png"
+      ]
+    },
     "portfolio": {
       "name": "gabrielcasanova.com.br",
       "type": "Personal project",
@@ -103,26 +123,6 @@
         "/img/edusyst/6.png",
         "/img/edusyst/7.png",
         "/img/edusyst/8.png"
-      ]
-    },
-    "lucia": {
-      "name": "Lucia Ippolito's Portfolio Site",
-      "type": "Freelance Project",
-      "year": "2025",
-      "text": "Portfolio website for Brazilian journalist Lucia Ippolito. The website is a responsive, static single-page application built with Vite, React, TypeScript, and Tailwind. The site is powered by structured JSON-based content, allowing the client to easily update and expand sections without modifying code. It features smooth navigation using React Router and supports localization with i18n integration.",
-      "stack": "vite,ts,react,tailwind",
-      "links": {
-        "site": "https://luciaippolito.github.io/",
-        "git":  "https://github.com/luciaippolito/luciaippolito.github.io"
-      },
-      "pics": [
-        "/img/lucia/1.png",
-        "/img/lucia/2.png",
-        "/img/lucia/3.png",
-        "/img/lucia/4.png",
-        "/img/lucia/5.png",
-        "/img/lucia/6.png",
-        "/img/lucia/7.png"
       ]
     }
   },
