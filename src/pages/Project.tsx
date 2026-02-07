@@ -110,6 +110,7 @@ const Project = () => {
           {/* Links */}
           <div className="mt-7">
             <p className="font-bold font-fredoka">{ t("pages.project.links") }:</p>
+            { projectLink(faEarthAmericas, t("pages.project.play"), `${currentProject}.links.play`) }
             { projectLink(faEarthAmericas, t("pages.project.site"), `${currentProject}.links.site`) }
             { projectLink(faGithub, t("pages.project.git"), `${currentProject}.links.git`) }
             { projectLink(faBook, t("pages.project.docs"), `${currentProject}.links.docs`) }

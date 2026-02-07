@@ -11,7 +11,8 @@
 
   "pages": {
     "home": {
-      "title": "Portfólio de Desenvolvimento Web"
+      "web": "Portfólio de Desenvolvimento Web",
+      "games": "Portfólio de Desenvolvimento de Jogos"
     },
 
     "project": {
@@ -22,7 +23,8 @@
       "git": "GitHub",
       "site": "Site",
       "docs": "Documentação",
-      "vid": "Vídeo Demo"
+      "vid": "Vídeo",
+      "play": "Jogar"
     },
 
     "experience": {
@@ -143,6 +145,26 @@
         "/img/edusyst/6.png",
         "/img/edusyst/7.png",
         "/img/edusyst/8.png"
+      ]
+    },
+    "ednaldo": {
+      "name": "Ednaldo Pereira: MESCLADASSO",
+      "type": "Colaboração Voluntária em Indie Game Comunitário",
+      "year": "2020",
+      "text": "Ednaldo Pereira: MESCLADASSO é um jogo independente gratuito lançado em 2020, baseado no cantor e personalidade de internet, Ednaldo Pereira. É um platformer 2D collectathon, inspirado em clássicos como Super Mario 64 e Spongebob Battle for Bikini Bottom. O jogo apresenta uma história original em que Ednaldo e seu amigo Fleig defendem o universo de uma invasão de robôs criada pela temida Elite Preta.<br/><br/>O jogo atraiu ampla repercussão em veículos como G1, Jovem Nerd e canais de entretenimento como Flow Podcast, Coisa Nossa (Guaraná Antártica), Andrézitos e Cellbit.<br/><br/>Fui responsável pelo desenvolvimento do launcher e sistema de atualização (updater) do jogo. Além da frente técnica, atuei na organização da equipe e na criação de peças gráficas e audiovisuais para a campanha de marketing do projeto.",
+      "stack": "gamemakerstudio",
+      "links": {
+        "play": "https://gamejolt.com/games/ednaldopereira/513510",
+        "vid": "https://youtu.be/n1Y4XidiC0g"
+      },
+      "pics": [
+        "/img/ednaldo/1.png",
+        "/img/ednaldo/2.png",
+        "/img/ednaldo/3.png",
+        "/img/ednaldo/4.png",
+        "/img/ednaldo/5.png",
+        "/img/ednaldo/6.png",
+        "/img/ednaldo/7.png"
       ]
     }
   },

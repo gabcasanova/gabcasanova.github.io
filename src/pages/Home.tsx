@@ -22,7 +22,7 @@ const Home = () => {
     <Page>
       {/* Page title */}
       <h1 className="mb-10 uppercase font-fredoka text-center xl:text-left">
-        { t("pages.home.title") }
+        { t("pages.home.web") }
       </h1>
 
       {/* Projects */}
@@ -32,6 +32,16 @@ const Home = () => {
         { projectThumbnail("Portfolio",           "url(/img/portfolio/thumb.png)",    "portfolio")    }
         { projectThumbnail("PVic Games",          "url(/img/pvic/thumb.png)",         "pvic")         }
         { projectThumbnail("EduSyst",             "url(/img/edusyst/thumb.png)",      "edusyst")      }
+      </div>
+
+      {/* Page title */}
+      <h1 className="mt-20 mb-10 uppercase font-fredoka text-center xl:text-left">
+        { t("pages.home.games") }
+      </h1>
+
+      {/* Projects */}
+      <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-5 gap-4">
+        { projectThumbnail("Ednaldo Pereira: MESCLADASSO", "url(/img/ednaldo/thumb.png)", "ednaldo") }
       </div>
     </Page>
   );
