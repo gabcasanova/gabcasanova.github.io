@@ -34,7 +34,7 @@
     "about": {
       "title": "Sobre",
       "titleBig": "Sobre Mim",
-      "text": "Olá! Sou uma pessoa que gosta de trabalhar entre criatividade e tecnologia. Eu gosto de misturar imaginação com praticidade e estou sempre buscando maneiras intuitivas e eficientes de resolver problemas. Tenho prazer em criar coisas que sejam simples, bem pensadas e úteis... tanto para quem usa quanto para quem desenvolve."
+      "text": "👋 Olá! Me chamo Gabriel Casanova. <br/><br/> Sou um profissional multidisciplinar com atuação nas áreas de game design, produção e desenvolvimento de jogos e desenvolvimento web. <br/><br/> Gosto de trabalhar na interseção entre criatividade e tecnologia. Estou sempre em busca de aprender, colaborar e contribuir para projetos significativos!"
     },
 
     "notfound": {
@@ -150,20 +150,12 @@
   "experiences": {
     "academic": [
       {
-        "institution": "UERJ - Universidade do Estado do Rio de Janeiro",
-        "img": "/img/logos/uerj.png",
-        "date": "ago/2025 - até agora",
-        "location": "Rio de Janeiro, Brasil",
-        "role": "Bacharelado em Ciência da Computação",
-        "text": "Cursando."
-      },
-      {
         "institution": "ISERJ - Instituto Superior de Educação do Rio de Janeiro",
         "img": "/img/logos/iserj.png",
         "date": "mar/2022 - nov/2024 • 3 anos",
         "location": "Rio de Janeiro, Brasil",
         "role": "Ensino Médio Técnico em Informática",
-        "text": "Durante meus três anos de formação técnica no ISERJ, desenvolvi habilidades sólidas em programação, desenvolvimento de sistemas e modelagem de dados. Trabalhei com desenvolvimento web front-end (HTML, CSS, JavaScript, Bootstrap) e back-end (Java EE, JSP, PHP), integrando bancos de dados MySQL. Também adquiri experiência em modelagem de sistemas com UML, desenvolvimento de aplicações desktop com Java SE e desenvolvimento mobile para Android com Java e Android Studio."
+        "text": "Durante os três anos do Curso Técnico em Informática, adquiri habilidades sólidas em programação, desenvolvimento de sistemas e modelagem de dados (UML). Obtive experiência no desenvolvimento de aplicações web com tecnologias front-end (HTML, CSS, JavaScript, Bootstrap) e back-end (Java EE [JSP, Servlets], PHP, MySQL), além de desenvolver aplicações desktop utilizando Java SE e Swing. Complementei essa formação com o desenvolvimento de aplicativos mobile para a plataforma Android com Java e Android Studio, e ganhei proficiência na instalação e manutenção de sistemas operacionais Linux (Ubuntu, Debian)."
       }
     ],
     "companies": [
@@ -172,16 +164,16 @@
         "img": "/img/logos/pvic.png",
         "date": "jul/2025 - atualmente",
         "location": "Remoto",
-        "role": "Produtor de Jogos & Designer Narrativo",
-        "text": "Atualmente trabalho como Produtor de Jogos na PVic Games, um estúdio indie de 6 pessoas. Minha responsabilidade principal é organizar e coordenar o processo de desenvolvimento dos jogos. Auxilio no planejamento do nosso roadmap, na gestão de prioridades da equipe e na garantia de uma boa comunicação entre todas as áreas, desde programação até arte e design. Em eventos e conferências, represento o estúdio e também participo do desenvolvimento narrativo dos jogos, contribuindo com a criação de personagens, construção de histórias e desenvolvimento do universo ficcional."
+        "role": "Produtor de Jogos",
+        "text": "Como produtor, minha responsabilidade principal é organizar e coordenar o processo de desenvolvimento dos jogos. Auxilio no planejamento do nosso roadmap, na gestão de prioridades da equipe e na garantia de uma boa comunicação entre todas as áreas. Além da gestão interna, também estou envolvido em nossos relacionamentos externos e na comunicação com a publisher. Isso inclui preparar atualizações do projeto, alinhar expectativas e garantir que as metas sejam cumpridos por ambas as partes. Além disso, represento o estúdio em eventos e conferências (Gamescom LATAM, Festival Jogatório)."
       },
       {
         "institution": "PVic Games",
         "img": "/img/logos/pvic.png",
-        "date": "abr/2025 - jul/2025 • 4 meses",
+        "date": "abr/2025 - atualmente",
         "location": "Remoto",
         "role": "Desenvolvedor de Jogos (GML / GameMaker)",
-        "text": "Como Desenvolvedor de Jogos na PVic Games, contribuí para o desenvolvimento de ARTIUS, um platformer 2D indie, por meio de programação na GameMaker Engine usando GameMaker Language (GML). Meu trabalho envolveu a implementação e o refinamento de mecânicas centrais de gameplay, correção de bugs e suporte aos desenvolvedores principais para garantir um fluxo de desenvolvimento eficiente."
+        "text": "Sou desenvolvedor de jogos no estúdio indie PVic Games, atuando no desenvolvimento do platformer 2D ''ARTIUS: Pure Imagination'', trabalhando com a GameMaker Engine. Responsável por bugfixing, otimização, tooling interno, suporte de localização para diferentes idiomas, scripting de cutscenes e eventos in-game, sistemas 3D e porting para diferentes plataformas (Web, Linux)."
       },
       {
         "institution": "PVic Games",
@@ -197,7 +189,7 @@
         "date": "mar/2024 - nov/2024 • 9 meses",
         "location": "Rio de Janeiro, Brasil • Presencial",
         "role": "Estagiário de Desenvolvimento Web (WordPress/PHP)",
-        "text": "Programação web backend e manutenção do site do instituto. Desenvolvimento de áreas internas do site para os professores e a secretaria do instituto, auxiliando na integração de outros bancos de dados institucionais ao banco de dados principal em MySQL. Também desenvolvi plugins e scripts personalizados em PHP para a back-end do WordPress."
+        "text": "Responsável pelo desenvolvimento backend e manutenção do portal web do instituto, que utiliza WordPress. Fui o desenvolvedor principal de áreas internas destinadas a professores e à secretaria. Minhas contribuições incluíram o desenvolvimento de plugins e scripts PHP personalizados para aprimorar a funcionalidade do backend do WordPress e a integração eficiente de bancos de dados institucionais secundários do instituto ao banco de dados principal em MySQL."
       },
       {
         "institution": "FAPERJ",
@@ -205,7 +197,7 @@
         "date": "jan/2023 - dez/2024 • 2 anos",
         "location": "Rio de Janeiro, Brasil • Híbrido",
         "role": "Bolsista de Pré-Iniciação Científica",
-        "text": "Bolsista no GPEEsC (Grupo de Pesquisa em Escola, Esporte e Cultura), prestando suporte de TI, incluindo configuração de equipamentos, suporte técnico e transcrição de documentos utilizando ferramentas do pacote Office."
+        "text": "Aluno pesquisador bolsista no GPEEsC (Grupo de Pesquisa em Escola, Esporte e Cultura), prestando suporte de TI, incluindo configuração de equipamentos, suporte técnico e transcrição de documentos utilizando ferramentas do pacote Office."
       }
     ]
   },

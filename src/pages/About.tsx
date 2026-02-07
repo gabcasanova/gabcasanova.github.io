@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next"
+import { Trans, useTranslation } from "react-i18next"
 import imgMe from "../assets/img/me.jpg"
 import qrCode from "../assets/img/linktree_qr_code.png"
 
@@ -35,7 +35,7 @@ const About = () => {
         <div className="flex flex-col">
           <h2 className="text-4xl font-walkaway">{ t("pages.about.titleBig") }</h2>
           <p className="mt-7 text-justify font-fredoka break-words xl:break-normal">
-            { t("pages.about.text") }
+            <Trans i18nKey={t("pages.about.text")} components={{ br: <br />, strong: <strong /> }}/>
           </p>
 
           {/* Links */}

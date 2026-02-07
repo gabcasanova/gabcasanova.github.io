@@ -34,7 +34,7 @@
     "about": {
       "title": "About",
       "titleBig": "About Me",
-      "text": "Hey there! I’m someone who enjoys working at the intersection of creativity and technology. I like blending imagination with practicality, and I’m always looking for intuitive and efficient ways to solve problems. I enjoy creating things that feel simple, thoughtful, and genuinely useful... both for the people using them and for the people building them."
+      "text": "👋 Hi! My name is Gabriel Casanova. <br/><br/> I am a multidisciplinary professional working in game design, game production, game development, and web development. <br/><br/> I enjoy working at the intersection of creativity and technology. I am always looking to learn, collaborate, and contribute to meaningful projects!"
     },
 
     "notfound": {
@@ -150,62 +150,54 @@
   "experiences": {
     "academic": [
       {
-        "institution": "UERJ - Rio de Janeiro State University",
-        "img": "/img/logos/uerj.png",
-        "date": "aug/2025 - now",
-        "location": "Rio de Janeiro, Brazil",
-        "role": "Bachelor's Degree in Computer Science",
-        "text": "Currently pursuing."
-      },
-      {
-        "institution": "ISERJ - Rio de Janeiro Higher Institute of Education",
+        "institution": "ISERJ - Higher Education Institute of Rio de Janeiro",
         "img": "/img/logos/iserj.png",
-        "date": "mar/2022 - nov/2024 • 3 years",
+        "date": "Mar/2022 - Nov/2024 • 3 years",
         "location": "Rio de Janeiro, Brazil",
         "role": "Associate Degree in Information Technology",
-        "text": "During my three years of technical training at ISERJ, I developed strong skills in programming, system development, and data modeling. I worked on both front-end (HTML, CSS, JavaScript, Bootstrap) and back-end (Java EE, JSP, PHP) web development, integrating MySQL databases. I also gained experience in system modeling with UML, desktop applications using Java SE, and Android mobile development with Java and Android Studio."
+        "text": "I acquired solid skills in programming, systems development, and data modeling (UML). I gained experience in developing web applications with front-end (HTML, CSS, JavaScript, Bootstrap) and back-end (Java EE [JSP, Servlets], PHP, MySQL) technologies, in addition to developing desktop applications using Java SE and Swing. I complemented this training with the development of mobile applications for the Android platform using Java and Android Studio, and gained proficiency in installing and maintaining Linux operating systems (Ubuntu, Debian)."
       }
     ],
     "companies": [
       {
         "institution": "PVic Games",
         "img": "/img/logos/pvic.png",
-        "date": "july/2025 - now",
+        "date": "Jul/2025 - Present",
         "location": "Remote",
-        "role": "Game Producer & Narrative Designer",
-        "text": "I currently work as a Game Producer at PVic Games, a 6-person indie studio. My main responsibility is to organize and coordinate the development process of the games. I help plan our roadmap, manage team priorities, and ensure communication flows across all disciplines, from programming to art and design. At events and conferences, I represent the studio and I’m also involved narrative development of the games, contributing to character backstories and worldbuilding."
+        "role": "Game Producer",
+        "text": "As a producer, my main responsibility is to organize and coordinate the game development process. I assist in planning our roadmap, managing team priorities, and ensuring clear communication across all departments. Beyond internal management, I am also involved in our external relationships and communication with the publisher. This includes preparing project updates, aligning expectations, and ensuring that milestones are met by both parties. Additionally, I represent the studio at events and conferences (Gamescom LATAM, Festival Jogatório)."
       },
       {
         "institution": "PVic Games",
         "img": "/img/logos/pvic.png",
-        "date": "apr/2025 - july/2025 • 4 months",
+        "date": "Apr/2025 - Present",
         "location": "Remote",
         "role": "Game Developer (GML / GameMaker)",
-        "text": "As a Game Developer at PVic Games, I contributed to the development of ARTIUS, an indie 2D platformer, through programming in the GameMaker Engine with GameMaker Language (GML). My role involved implementing and refining core gameplay mechanics, fixing bugs, and supporting the lead developers to ensure smooth development workflows."
+        "text": "I am a game developer at the indie studio PVic Games, working on the development of the 2D platformer 'ARTIUS: Pure Imagination' using the GameMaker Engine. Responsible for bug fixing, optimization, internal tooling, localization support for different languages, scripting of cutscenes and in-game events, 3D systems, and porting to different platforms (Web, Linux)."
       },
       {
         "institution": "PVic Games",
         "img": "/img/logos/pvic.png",
-        "date": "dec/2024 - apr/2025 • 5 months",
+        "date": "Dec/2024 - Apr/2025 • 5 months",
         "location": "Remote",
         "role": "Freelance Web Developer (React/TypeScript)",
-        "text": "I developed the PVic Games website (http://pvicvg.com/) as a freelance project for the indie game studio PVic Games. The design, inspired by the works of Brazilian artist Ziraldo, was created by me in collaboration with the client to match their vision. The website is a responsive, static single-page application built with Vite, React, TypeScript, and Tailwind."
+        "text": "Acted as a freelance developer in the creation of the official website for the indie game studio PVic Games (http://pvicvg.com/). The design, inspired by the works of Brazilian artist Ziraldo, was created by me in collaboration with the client to reflect their vision. The site is a responsive single-page application (SPA) built with Vite, React, TypeScript, and Tailwind CSS."
       },
       {
         "institution": "IME/UERJ - Institute of Mathematics and Statistics",
         "img": "/img/logos/ime.png",
-        "date": "mar/2024 - nov/2024 • 9 months",
+        "date": "Mar/2024 - Nov/2024 • 9 months",
         "location": "Rio de Janeiro, Brazil • On-site",
         "role": "Web Development Intern (WordPress/PHP)",
-        "text": "Backend web development and site maintenance for the institute. I built internal website sections for teachers and administrators, helping integrate other institutional databases into the site's main MySQL database. I also developed custom PHP plugins and scripts for the WordPress backend."
+        "text": "Responsible for backend development and maintenance of the institute's web portal, which utilizes WordPress. I was the lead developer for internal areas dedicated to professors and the administrative office. My contributions included developing custom PHP scripts and plugins to enhance WordPress backend functionality and the efficient integration of the institute's secondary institutional databases into the main MySQL database."
       },
       {
-        "institution": "FAPERJ Foundation",
+        "institution": "FAPERJ",
         "img": "/img/logos/faperj.png",
-        "date": "jan/2023 - dec/2024 • 2 years",
-        "location": "Rio de Janeiro, Brasil • Hybrid",
+        "date": "Jan/2023 - Dec/2024 • 2 years",
+        "location": "Rio de Janeiro, Brazil • Hybrid",
         "role": "Research Internship",
-        "text": "Intern Researcher at GPEEsC (Research Group on School, Sports, and Culture), where I provided IT support including equipment setup, technical assistance, and document transcription using Office tools."
+        "text": "Intern Researcher and scholar at GPEEsC (Research Group on School, Sports, and Culture), providing IT support, including equipment configuration, technical support, and document transcription using Office Suite tools."
       }
     ]
   },
