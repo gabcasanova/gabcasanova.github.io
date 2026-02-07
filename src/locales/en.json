@@ -44,11 +44,31 @@
   },
 
   "projects": {
+    "sonicmegamix": {
+      "name": "Sonic Megamix Mania Website",
+      "type": "Freelance Project",
+      "year": "2026",
+      "text": "Sonic Megamix Mania Project Website. The site is a Single-Page Application (SPA) developed with Vite, React, TypeScript, and Tailwind. The project explores web interactivity to recreate the atmosphere of classic 16-bit games through parallax effects and custom animations. The technical highlight lies in the main page's animation, which utilizes seven synchronized image layers to simulate a dynamic sea effect, emulating the visuals of classic Sonic games.",
+      "stack": "vite,ts,react,tailwind",
+      "links": {
+        "site": "https://sonicmegamixmania.github.io/",
+        "git":  "https://github.com/SonicMegamixMania/sonicmegamixmania.github.io"
+      },
+      "pics": [
+        "/img/sonicmegamix/1.png",
+        "/img/sonicmegamix/2.png",
+        "/img/sonicmegamix/3.png",
+        "/img/sonicmegamix/4.png",
+        "/img/sonicmegamix/5.png",
+        "/img/sonicmegamix/6.png",
+        "/img/sonicmegamix/7.png"
+      ]
+    },
     "lucia": {
       "name": "Lucia Ippolito's Portfolio Site",
       "type": "Freelance Project",
       "year": "2025",
-      "text": "Portfolio website for Brazilian journalist Lucia Ippolito. The website is a responsive, static single-page application built with Vite, React, TypeScript, and Tailwind. The site is powered by structured JSON-based content, allowing the client to easily update and expand sections without modifying code. It features smooth navigation using React Router and supports localization with i18n integration.",
+      "text": "Portfolio website for Brazilian journalist Lucia Ippolito. The website is a responsive, static single-page application built with Vite, React, TypeScript, and Tailwind. The site is powered by structured JSON-based content, allowing the client to easily update and expand sections without modifying the code itself. It features smooth navigation using React Router and supports localization with i18n integration.",
       "stack": "vite,ts,react,tailwind",
       "links": {
         "site": "https://luciaippolito.github.io/",

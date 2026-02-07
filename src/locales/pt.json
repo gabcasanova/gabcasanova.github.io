@@ -44,11 +44,31 @@
   },
 
   "projects": {
+    "sonicmegamix": {
+      "name": "Sonic Megamix Mania Website",
+      "type": "Projeto freelancer",
+      "year": "2026",
+      "text": "Site do projeto Sonic Megamix Mania. O site é uma single-page application (SPA), desenvolvida com Vite, React, TypeScript e Tailwind. O projeto explora a interatividade web para recriar a atmosfera dos jogos clássicos 16-bit através de efeitos de parallax e animações customizadas. O diferencial técnico reside na animação da página principal, que utiliza sete camadas de imagem sincronizadas para simular um efeito de mar dinâmico, simulando os visuais dos jogos clássicos do Sonic.",
+      "stack": "vite,ts,react,tailwind",
+      "links": {
+        "site": "https://sonicmegamixmania.github.io/",
+        "git":  "https://github.com/SonicMegamixMania/sonicmegamixmania.github.io"
+      },
+      "pics": [
+        "/img/sonicmegamix/1.png",
+        "/img/sonicmegamix/2.png",
+        "/img/sonicmegamix/3.png",
+        "/img/sonicmegamix/4.png",
+        "/img/sonicmegamix/5.png",
+        "/img/sonicmegamix/6.png",
+        "/img/sonicmegamix/7.png"
+      ]
+    },
     "lucia": {
       "name": "Portfolio de Lucia Ippolito",
       "type": "Projeto freelancer",
       "year": "2025",
-      "text": "Portfolio da jornalista brasileira Lucia Ippolito. O site é uma single-page application (SPA), desenvolvido com Vite, React, TypeScript e Tailwind. É alimentado por conteúdo estruturado em JSON, permitindo que a cliente atualize e expanda seções facilmente sem modificar o código. Ele oferece navegação fluida utilizando React Router e suporte à localização por meio da integração com a biblioteca i18n.",
+      "text": "Portfolio da jornalista brasileira Lucia Ippolito. O site é uma single-page application (SPA), desenvolvida com Vite, React, TypeScript e Tailwind. É alimentado por conteúdo estruturado em JSON, permitindo que a cliente atualize e expanda seções facilmente sem modificar o código. Ele oferece navegação fluida utilizando React Router e suporte à localização por meio da integração com a biblioteca i18n.",
       "stack": "vite,ts,react,tailwind",
       "links": {
         "site": "https://luciaippolito.github.io/",
@@ -68,7 +88,7 @@
       "name": "gabrielcasanova.com.br",
       "type": "Projeto pessoal",
       "year": "2025",
-      "text": "Meu site pessoal. O site é uma single-page application (SPA), desenvolvido com Vite, React, TypeScript e Tailwind. Ele oferece navegação fluida utilizando React Router e suporte aos idiomas português e inglês por meio da integração com a biblioteca i18n.",
+      "text": "Meu site pessoal. O site é uma single-page application (SPA), desenvolvida com Vite, React, TypeScript e Tailwind. Ele oferece navegação fluida utilizando React Router e suporte aos idiomas português e inglês por meio da integração com a biblioteca i18n.",
       "stack": "vite,ts,react,tailwind",
       "links": {
         "site": "https://gabrielcasanova.com.br/",
@@ -87,7 +107,7 @@
       "name": "PVic Games Website",
       "type": "Projeto freelancer",
       "year": "2025",
-      "text": "Atuei como desenvolvedor freelancer na criação do site oficial do estúdio de jogos indie PVic Games. O design, inspirado nas obras do artista brasileiro Ziraldo, foi criado por mim com a orientação do cliente para atender à sua visão. O site é uma single-page application (SPA), desenvolvido com Vite, React, TypeScript e Tailwind. Ele oferece navegação fluida utilizando React Router e suporte aos idiomas português e inglês por meio da integração com a biblioteca i18n. Animações modernas, implementadas com Animate.css e AOS, aprimoram a experiência do usuário. A página 'sobre' inclui um modelo 3D interativo implementado com a biblioteca WebGL Three.js, adicionando um elemento dinâmico e divertido ao site, aumentando o engajamento do usuário.",
+      "text": "Atuei como desenvolvedor freelancer na criação do site oficial do estúdio de jogos indie PVic Games. O design, inspirado nas obras do artista brasileiro Ziraldo, foi criado por mim com a orientação do cliente para atender à sua visão. O site é uma single-page application (SPA), desenvolvida com Vite, React, TypeScript e Tailwind. Ele oferece navegação fluida utilizando React Router e suporte aos idiomas português e inglês por meio da integração com a biblioteca i18n. Animações modernas, implementadas com Animate.css e AOS, aprimoram a experiência do usuário. A página 'sobre' inclui um modelo 3D interativo implementado com a biblioteca WebGL Three.js, adicionando um elemento dinâmico e divertido ao site, aumentando o engajamento do usuário.",
       "stack": "vite,ts,react,tailwind",
       "links": {
         "site": "https://pvicvg.com/",
