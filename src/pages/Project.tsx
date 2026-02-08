@@ -6,7 +6,7 @@ import { Trans, useTranslation } from "react-i18next"
 import { Link, useNavigate, useParams } from "react-router"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, IconDefinition } from "@fortawesome/free-brands-svg-icons"
-import { faBook, faEarthAmericas, faFilm } from "@fortawesome/free-solid-svg-icons"
+import { faBook, faEarthAmericas, faFilm, faGamepad } from "@fortawesome/free-solid-svg-icons"
 import { useEffect, useState } from "react"
 
 const Project = () => {
@@ -27,24 +27,35 @@ const Project = () => {
   // Get pictures array from JSON.
   const pics = t(`${currentProject}.pics`, { returnObjects: true });
   const projectPics = Array.isArray(pics) ? pics : Object.values(pics); 
-  const [currentPic, setCurrentPic] = useState(projectPics[0])
+  const [currentPic, setCurrentPic] = useState(projectPics[0]);
 
   // Create pictures from JSON array.
   function picturesGallery() {
     return (
       <div className="mt-10 grid grid-cols-4 gap-5">
-        {projectPics.map((pic, index) => (
-          <div className="brightness-90 hover:brightness-100 hover:cursor-pointer duration-100"
-               onClick={() => setCurrentPic(pic)}
-               key={index} >
-            <img className="w-fit h-[50px] xl:h-[84px] m-auto" 
-                src={pic}
+        {projectPics.map((pic, index) => {
+          //If it's a GIF, force the thumbnail to be PNG.
+          const thumbnailSrc = pic.endsWith('.gif') 
+            ? pic.replace('.gif', '.png') 
+            : pic;
+
+          return (
+            <div 
+              className="brightness-90 hover:brightness-100 hover:cursor-pointer duration-100"
+              // When clicked, show the ORIGINAL FILE in the main view
+              onClick={() => setCurrentPic(pic)} 
+              key={index} 
+            >
+              <img 
+                className="w-fit h-[50px] xl:h-[84px] m-auto" 
+                src={thumbnailSrc} // Use the static PNG for the gallery grid
                 alt={`Project image ${index + 1}`} 
-            />
-          </div>
-        ))}
+              />
+            </div>
+          );
+        })}
       </div>
-    )
+    );
   }
 
   // Create URLs with fontawesome icons.
@@ -110,7 +121,7 @@ const Project = () => {
           {/* Links */}
           <div className="mt-7">
             <p className="font-bold font-fredoka">{ t("pages.project.links") }:</p>
-            { projectLink(faEarthAmericas, t("pages.project.play"), `${currentProject}.links.play`) }
+            { projectLink(faGamepad, t("pages.project.play"), `${currentProject}.links.play`) }
             { projectLink(faEarthAmericas, t("pages.project.site"), `${currentProject}.links.site`) }
             { projectLink(faGithub, t("pages.project.git"), `${currentProject}.links.git`) }
             { projectLink(faBook, t("pages.project.docs"), `${currentProject}.links.docs`) }

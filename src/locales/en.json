@@ -164,7 +164,30 @@
         "/img/ednaldo/4.png",
         "/img/ednaldo/5.png",
         "/img/ednaldo/6.png",
-        "/img/ednaldo/7.png"
+        "/img/ednaldo/7.png",
+        "/img/ednaldo/8.png"
+      ]
+    },
+    "artius": {
+      "name": "ARTIUS: Pure Imagination",
+      "type": "Game Producer and Additional Game Developer",
+      "year": "2026",
+      "text": "ARTIUS: Pure Imagination is a fast-paced, momentum-based 2D platformer where you play as distinct artists with unique abilities, battling to preserve creativity in a world on the verge of artistic extinction! Dash, swing, and smash your way through a vibrant, hand-drawn world in this adrenaline-fueled platformer where style is your strongest weapon.<br/><br/>I joined the ARTIUS team by contributing to the Game Design Document (GDD) and the game pitch, which eventually led to a partnership with the Chinese publisher IndieArk. Following this, I took on the roles of Game Producer and Additional Game Developer.<br/><br/>As a producer, my main responsibility was to organize and coordinate the development process. I assisted in planning the roadmap, managing team priorities, and ensuring clear communication across all departments. Beyond internal management, I handled external relations and communication with the publisher. Additionally, I represented the project at major events and conferences, such as Gamescom LATAM and Festival Jogatório.<br/><br/>As a game developer, I was responsible for bug fixing, optimization, and internal tooling. My work also included localization support for multiple languages, scripting cutscenes and in-game events, implementing 3D systems, and porting the game to different platforms, including Web and Linux.",
+      "stack": "gamemakerstudio,js",
+      "links": {
+        "play": "https://store.steampowered.com/app/3599920/ARTIUS_Pure_Imagination/",
+        "site": "https://pvicvg.com/#/artius",
+        "vid": "https://youtu.be/NbMfHNUAw_k"
+      },
+      "pics": [
+        "/img/artius/1.gif",
+        "/img/artius/2.jpg",
+        "/img/artius/3.jpg",
+        "/img/artius/4.jpg",
+        "/img/artius/5.jpg",
+        "/img/artius/6.jpg",
+        "/img/artius/7.jpg",
+        "/img/artius/8.jpg"
       ]
     }
   },
