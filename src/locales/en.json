@@ -147,6 +147,41 @@
         "/img/edusyst/8.png"
       ]
     },
+    "shoelace": {
+      "name": "Shoelace!",
+      "type": "Game Jam Project",
+      "year": "2021",
+      "text": "While experimenting with connections to inter-dimensional worlds, the great DR. KARLOVISKY ends up tripping over his experiments and creates an outerwordly connection with his shoelace. Now, demons from another universe are being tied to him... by a shoelace! Help him escape the dark corners of the evil science company Dark Mesa and get out of this mess!<br/><br/> This is a maze puzzle game written in Lua made with the LÖVE framework for the GMTK Game Jam 2021. The entire game was made in just 48 hours. I made the game alone, writing all the code and drawing all the art.",
+      "stack": "lua",
+      "links": {
+        "play": "https://gabrielcasanova.itch.io/shoelace",
+        "git": "https://github.com/gabcasanova/shoelace"
+      },
+      "pics": [
+        "/img/shoelace/1.png",
+        "/img/shoelace/2.jpeg",
+        "/img/shoelace/3.png",
+        "/img/shoelace/4.png"
+      ]
+    },
+    "seriouslotr": {
+      "name": "Serious Lord of the Rings Bros.",
+      "type": "Fan-game, Game Jam Project",
+      "year": "2021",
+      "text": "IT'S EXACTLY WHAT YOU'RE THINKING! Re-experience the magical adventure of Frodo and his friends on this parody retelling of Lord Of The Rings: The Fellowship of the Ring in the style of the classic Super Mario Bros. and Zelda games. Beat up evil Orcs, Goblins, Ringwraiths and jump through countless spikes, falling bridges in the fantastical land of Middle-Earth in a retro aesthetic. Meet Sam, Gandalf, Aragorn and Legolas in byte-sized pixel forms while running away from Sauron's red dark lord eyes.<br/><br/>This is a fan-game written in JavaScript made with the PhaserJS framework for the YomaJam 2021 Game Jam. The entire game was made in just one month. I made the game alone, writing all the code and making custom art based on the art from 8-bit Zelda and Mario NES games. The objective was to create a game that followed more-or-less the simplistic limitations of the original NES.",
+      "stack": "javascript",
+      "links": {
+        "play": "https://gabrielcasanova.itch.io/seriouslotrbros",
+        "git": "https://github.com/gabcasanova/seriouslotrbros"
+      },
+      "pics": [
+        "/img/seriouslotr/1.png",
+        "/img/seriouslotr/2.png",
+        "/img/seriouslotr/3.png",
+        "/img/seriouslotr/4.png",
+        "/img/seriouslotr/5.png"
+      ]
+    },
     "ednaldo": {
       "name": "Ednaldo Pereira: MESCLADASSO",
       "type": "Voluntary Collaboration on Community Indie Game",

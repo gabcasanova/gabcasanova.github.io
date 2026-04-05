@@ -20,29 +20,31 @@ const Home = () => {
 
   return (
     <Page>
-      {/* Page title */}
+      {/* Section title */}
       <h1 className="mb-10 uppercase font-fredoka text-center xl:text-left">
+        { t("pages.home.games") }
+      </h1>
+
+      {/* Game Projects */}
+      <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-5 gap-4">
+        { projectThumbnail("ARTIUS: Pure Imagination",        "url(/img/artius/thumb.png)",      "artius")      }
+        { projectThumbnail("Ednaldo Pereira: MESCLADASSO",    "url(/img/ednaldo/thumb.png)",     "ednaldo")     }
+        { projectThumbnail("Serious Lord of the Rings Bros.", "url(/img/seriouslotr/thumb.png)", "seriouslotr") }
+        { projectThumbnail("Shoelace!",                       "url(/img/shoelace/thumb.png)",    "shoelace")    }
+      </div>
+
+      {/* Section title */}
+      <h1 className="mt-10 mb-10 uppercase font-fredoka text-center xl:text-left">
         { t("pages.home.web") }
       </h1>
 
-      {/* Projects */}
+      {/* Web Projects */}
       <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-5 gap-4">
         { projectThumbnail("Sonic Megamix Mania", "url(/img/sonicmegamix/thumb.png)", "sonicmegamix") }
         { projectThumbnail("Lucia Ippolito",      "url(/img/lucia/thumb.png)",        "lucia")        }
         { projectThumbnail("Portfolio",           "url(/img/portfolio/thumb.png)",    "portfolio")    }
         { projectThumbnail("PVic Games",          "url(/img/pvic/thumb.png)",         "pvic")         }
         { projectThumbnail("EduSyst",             "url(/img/edusyst/thumb.png)",      "edusyst")      }
-      </div>
-
-      {/* Page title */}
-      <h1 className="mt-20 mb-10 uppercase font-fredoka text-center xl:text-left">
-        { t("pages.home.games") }
-      </h1>
-
-      {/* Projects */}
-      <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-5 gap-4">
-        { projectThumbnail("ARTIUS: Pure Imagination",     "url(/img/artius/thumb.png)",  "artius") }
-        { projectThumbnail("Ednaldo Pereira: MESCLADASSO", "url(/img/ednaldo/thumb.png)", "ednaldo") }
       </div>
     </Page>
   );

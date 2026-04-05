@@ -147,11 +147,46 @@
         "/img/edusyst/8.png"
       ]
     },
+    "shoelace": {
+      "name": "Shoelace!",
+      "type": "Projeto de Game Jam",
+      "year": "2021",
+      "text": "Enquanto experimentava com conexões para mundos interdimensionais, o grande DR. KARLOVISKY acaba tropeçando em seus experimentos e cria uma conexão de outro mundo com o cadarço de seu sapato. Agora, demônios de outro universo estão presos a ele... por um cadarço! Ajude-o a escapar dos cantos sombrios da maligna empresa de ciência Dark Mesa e sair dessa confusão!<br/><br/> Este é um jogo de puzzle e labirinto escrito em Lua e feito com o framework LÖVE para a GMTK Game Jam 2021. O jogo inteiro foi feito em apenas 48 horas. Fiz o jogo sozinho, escrevendo todo o código e desenhando toda a arte.",
+      "stack": "lua",
+      "links": {
+        "play": "https://gabrielcasanova.itch.io/shoelace",
+        "git": "https://github.com/gabcasanova/shoelace"
+      },
+      "pics": [
+        "/img/shoelace/1.png",
+        "/img/shoelace/2.jpeg",
+        "/img/shoelace/3.png",
+        "/img/shoelace/4.png"
+      ]
+    },
+    "seriouslotr": {
+      "name": "Serious Lord of the Rings Bros.",
+      "type": "Fan-game, Projeto de Game Jam",
+      "year": "2021",
+      "text": "É EXATAMENTE O QUE VOCÊ ESTÁ PENSANDO! Re-experimente a aventura mágica de Frodo e seus amigos nesta paródia de O Senhor dos Anéis: A Sociedade do Anel, no estilo dos clássicos Super Mario Bros. e Zelda. Derrote Orcs malignos, Goblins, Espectros do Anel e salte por inúmeros espinhos e pontes na fantástica Terra-Média com uma estética retrô. Encontre Sam, Gandalf, Aragorn e Legolas em formas de pixel art enquanto foge dos olhos vermelhos do lorde das trevas Sauron.<br/><br/>Este é um fan-game escrito em JavaScript feito com o framework PhaserJS para a YomaJam 2021. O jogo inteiro foi feito em apenas um mês. Fiz o jogo sozinho, escrevendo todo o código e criando arte personalizada baseada nos jogos originais de Zelda e Mario para o NES. O objetivo era criar um jogo que seguisse mais ou menos as limitações simplistas do Nintendinho original.",
+      "stack": "javascript",
+      "links": {
+        "play": "https://gabrielcasanova.itch.io/seriouslotrbros",
+        "git": "https://github.com/gabcasanova/seriouslotrbros"
+      },
+      "pics": [
+        "/img/seriouslotr/1.png",
+        "/img/seriouslotr/2.png",
+        "/img/seriouslotr/3.png",
+        "/img/seriouslotr/4.png",
+        "/img/seriouslotr/5.png"
+      ]
+    },
     "ednaldo": {
       "name": "Ednaldo Pereira: MESCLADASSO",
       "type": "Colaboração Voluntária em Indie Game Comunitário",
       "year": "2020",
-      "text": "Ednaldo Pereira: MESCLADASSO é um jogo independente gratuito lançado em 2020, baseado no cantor e personalidade de internet, Ednaldo Pereira. É um platformer 2D collectathon, inspirado em clássicos como Super Mario 64 e Spongebob Battle for Bikini Bottom. O jogo apresenta uma história original em que Ednaldo e seu amigo Fleig defendem o universo de uma invasão de robôs criada pela temida Elite Preta.<br/><br/>O jogo atraiu ampla repercussão em veículos como G1, Jovem Nerd e canais de entretenimento como Flow Podcast, Coisa Nossa (Guaraná Antártica), Andrézitos e Cellbit.<br/><br/>Fui responsável pelo desenvolvimento do launcher e sistema de atualização (updater) do jogo. Além da frente técnica, atuei na organização da equipe e na criação de peças gráficas e audiovisuais para a campanha de marketing do projeto.",
+      "text": "Ednaldo Pereira: MESCLADASSO é um jogo independente gratuito lançado em 2020, baseado no cantor e personalidade de internet, Ednaldo Pereira. É um platformer 2D collectathon, inspirado em clássicos como Super Mario 64 e Spongebob Battle for Bikini Bottom. O jogo apresenta uma história original em que Ednaldo e seu amigo Fleig defendem o universo de uma invasão de robôs criada pela temida Elite Preta.<br/><br/>O jogo atraiu ampla repercussão em veículos como G1, Jovem Nerd e canais de entretenimento como Flow Podcast, Coisa Nossa (Guaraná Antártica), Andrézitos e Cellbit.<br/><br/>Fui responsável pela programação do desenvolvimento do launcher e do sistema de atualização (updater) do jogo. Além da frente técnica, atuei na organização da equipe e na criação de peças gráficas e audiovisuais para a campanha de marketing do projeto.",
       "stack": "gamemakerstudio",
       "links": {
         "play": "https://gamejolt.com/games/ednaldopereira/513510",
