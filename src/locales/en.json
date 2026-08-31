@@ -230,6 +230,14 @@
   "experiences": {
     "academic": [
       {
+        "institution": "UFF - Federal Fluminense University",
+        "img": "/img/logos/uff.png",
+        "date": "Feb/2026 - Present",
+        "location": "Rio de Janeiro, Brazil",
+        "role": "Bachelor of Technology in Computer Systems Technology",
+        "text": "Currently pursuing."
+      },
+      {
         "institution": "ISERJ - Higher Education Institute of Rio de Janeiro",
         "img": "/img/logos/iserj.png",
         "date": "Mar/2022 - Nov/2024 • 3 years",

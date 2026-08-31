@@ -228,7 +228,15 @@
   },
 
   "experiences": {
-    "academic": [
+    "academic": [      
+      {
+        "institution": "UFF - Universidade Federal Fluminense",
+        "img": "/img/logos/uff.png",
+        "date": "fev/2026 - atualmente",
+        "location": "Rio de Janeiro, Brasil",
+        "role": "Curso Superior de Tecnologia em Sistemas de Computação",
+        "text": "Cursando."
+      },
       {
         "institution": "ISERJ - Instituto Superior de Educação do Rio de Janeiro",
         "img": "/img/logos/iserj.png",
