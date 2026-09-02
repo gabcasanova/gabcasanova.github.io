@@ -15,7 +15,7 @@ const Project = () => {
 
   // Get project from URL parameter.
   const params = useParams()
-  const currentProject = `projects.${params.projectName}`
+  const currentProject = `projects:${params.projectName}`
 
   // Redirect if project not found in JSON.
   useEffect(() => {

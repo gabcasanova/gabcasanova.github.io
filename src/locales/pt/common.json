@@ -1,0 +1,55 @@
+{
+  "navbar": {
+    "title": "Gabriel Casanova",
+
+    "links": [
+      { "text": "home", "url": "/" },
+      { "text": "experiência", "url": "/exp" },
+      { "text": "eventos",     "url": "/events"},
+      { "text": "sobre", "url": "/about" }
+    ]
+  },
+
+  "pages": {
+    "home": {
+      "web": "Portfólio de Desenvolvimento Web",
+      "games": "Portfólio de Desenvolvimento de Jogos"
+    },
+
+    "project": {
+      "title": "Projeto",
+      "return": "Voltar",
+      "stack": "Tecnologias",
+      "links": "Links",
+      "git": "GitHub",
+      "site": "Site",
+      "docs": "Documentação",
+      "vid": "Vídeo",
+      "play": "Jogar"
+    },
+
+    "experience": {
+      "title": "Experiência",
+      "education": "Educação",
+      "career": "Carreira"
+    },
+
+    "about": {
+      "title": "Sobre",
+      "titleBig": "Sobre Mim",
+      "text": "👋 Olá! Me chamo Gabriel Casanova. <br/><br/> Sou um profissional multidisciplinar com atuação nas áreas de game design, produção e desenvolvimento de jogos e desenvolvimento web. <br/><br/> Gosto de trabalhar na interseção entre criatividade e tecnologia. Estou sempre em busca de aprender, colaborar e contribuir para projetos significativos!"
+    },
+
+    "notfound": {
+      "text": "Página não encontrada.",
+      "return": "Voltar para a página inicial?"
+    }
+  },
+
+  "footer": {
+    "text": "Todos os direitos reservados. Rio de Janeiro, Brasil.",
+    "lang": "Idioma: ",
+    "en": "Inglês",
+    "pt": "Português"
+  }
+} 

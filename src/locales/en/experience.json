@@ -1,0 +1,63 @@
+{
+  "academic": [
+    {
+      "institution": "UFF - Federal Fluminense University",
+      "img": "/img/logos/uff.png",
+      "date": "Feb/2026 - Present",
+      "location": "Rio de Janeiro, Brazil",
+      "role": "Bachelor of Technology in Computer Systems Technology",
+      "text": "Currently pursuing."
+    },
+    {
+      "institution": "ISERJ - Higher Education Institute of Rio de Janeiro",
+      "img": "/img/logos/iserj.png",
+      "date": "Mar/2022 - Nov/2024 • 3 years",
+      "location": "Rio de Janeiro, Brazil",
+      "role": "Associate Degree in Information Technology",
+      "text": "During my three years at the institute, I acquired solid skills in programming, systems development, and data modeling (UML). I gained experience in developing web applications with front-end (HTML, CSS, JavaScript, Bootstrap) and back-end (Java EE [JSP, Servlets], PHP, MySQL) technologies, in addition to developing desktop applications using Java SE and Swing. I complemented this training with the development of mobile applications for the Android platform using Java and Android Studio, and gained proficiency in installing and maintaining Linux operating systems (Ubuntu, Debian)."
+    }
+  ],
+
+  "companies": [
+    {
+      "institution": "PVic Games",
+      "img": "/img/logos/pvic.png",
+      "date": "Jul/2025 - Present",
+      "location": "Remote",
+      "role": "Game Producer",
+      "text": "As a producer, my main responsibility is to organize and coordinate the game development process. I assist in planning our roadmap, managing team priorities, and ensuring clear communication across all departments. Beyond internal management, I am also involved in our external relationships and communication with the publisher. This includes preparing project updates, aligning expectations, and ensuring that milestones are met by both parties. Additionally, I represent the studio at events and conferences (Gamescom LATAM, Festival Jogatório)."
+    },
+    {
+      "institution": "PVic Games",
+      "img": "/img/logos/pvic.png",
+      "date": "Apr/2025 - Present",
+      "location": "Remote",
+      "role": "Game Developer (GML / GameMaker)",
+      "text": "I am a game developer at the indie studio PVic Games, working on the development of the 2D platformer 'ARTIUS: Pure Imagination' using the GameMaker Engine. Responsible for bug fixing, optimization, internal tooling, localization support for different languages, scripting of cutscenes and in-game events, 3D systems, and porting to different platforms (Web, Linux)."
+    },
+    {
+      "institution": "PVic Games",
+      "img": "/img/logos/pvic.png",
+      "date": "Dec/2024 - Apr/2025 • 5 months",
+      "location": "Remote",
+      "role": "Freelance Web Developer (React/TypeScript)",
+      "text": "Acted as a freelance developer in the creation of the official website for the indie game studio PVic Games (http://pvicvg.com/). The design, inspired by the works of Brazilian artist Ziraldo, was created by me in collaboration with the client to reflect their vision. The site is a responsive single-page application (SPA) built with Vite, React, TypeScript, and Tailwind CSS."
+    },
+    {
+      "institution": "IME/UERJ - Institute of Mathematics and Statistics",
+      "img": "/img/logos/ime.png",
+      "date": "Mar/2024 - Nov/2024 • 9 months",
+      "location": "Rio de Janeiro, Brazil • On-site",
+      "role": "Web Development Intern (WordPress/PHP)",
+      "text": "Responsible for backend development and maintenance of the institute's web portal, which utilizes WordPress. I was the lead developer for internal areas dedicated to professors and the administrative office. My contributions included developing custom PHP scripts and plugins to enhance WordPress backend functionality and the efficient integration of the institute's secondary institutional databases into the main MySQL database."
+    },
+    {
+      "institution": "FAPERJ",
+      "img": "/img/logos/faperj.png",
+      "date": "Jan/2023 - Dec/2024 • 2 years",
+      "location": "Rio de Janeiro, Brazil • Hybrid",
+      "role": "Research Internship",
+      "text": "Intern Researcher and scholar at GPEEsC (Research Group on School, Sports, and Culture), providing IT support, including equipment configuration, technical support, and document transcription using Office Suite tools."
+    }
+  ]
+}
