@@ -87,7 +87,7 @@ export const Events = () => {
               </div>
 
               {/* Images */}
-              <div className="mt-7 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-2 m-auto">
+              <div className="mt-7 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2 m-auto">
                 {/* Generate images from Array*/}
                 {images.map((src, index) => (
                   <div 
