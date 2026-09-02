@@ -1,0 +1,27 @@
+{
+  "eventsList": [
+    {
+      "name": "Gamescom Latam 2026",
+      "date": "São Paulo, Brazil • April 30 – May 3, 2026",
+      "description": "In 2026, ARTIUS was selected for the BIG Starter program at Gamescom Latam, an initiative that supports indie games from Brazil by providing dedicated showcase space at the event. We were present across all five days of the festival, representing the project from start to finish. In addition to my presence (Developer and Producer of the project) and Pedro Victor Gonçalves (Team Lead, Project Lead & Game Designer), other important members of the team attended: Kevin Macedo (Programmer), and Ítalo Mariz (Artist).",
+      "pics": "gamescomlatam2026",
+      "logo": "/img/logos/gamescom.png"
+    },
+
+    {
+      "name": "Festival Jogatório 2025",
+      "date": "São Paulo, Brazil • July 4–6, 2025",
+      "description": "In 2025, ARTIUS was selected for the Festival Jogatório indie game showcase, organized by Firma Gamedev. It was a remarkable opportunity to exhibit the project alongside great titles from the Brazilian scene and connect with an engaged indie gaming community. I represented the studio at the event alongside Pedro Victor Gonçalves (Project Lead & Game Designer).",
+      "pics": "jogatorio2025",
+      "logo": "/img/logos/firma.jpg"
+    },
+
+    {
+      "name": "Gamescom Latam 2025",
+      "date": "São Paulo, Brazil • May 1–5, 2025",
+      "description": "In 2025, ARTIUS made its event debut at Gamescom Latam within the GameMaker Brazil Community booth. This marked our first exhibition in São Paulo and the unveiling of the project's very first playable demo. During this focused one-day showcase, I represented the studio alongside Pedro Victor Gonçalves (Team Lead, Project Lead & Game Designer). We got to meet amazing people from the indie scene, experience the event, and take our first steps in validating the game with players.",
+      "pics": "gamescomlatam2025",
+      "logo": "/img/logos/gamescom.png"
+    }
+  ]
+}

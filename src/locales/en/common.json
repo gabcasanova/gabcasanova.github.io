@@ -34,6 +34,10 @@
       "career": "Career"
     },
 
+    "events": {
+      "title": "Events I participated in"
+    },
+
     "about": {
       "title": "About",
       "titleBig": "About Me",

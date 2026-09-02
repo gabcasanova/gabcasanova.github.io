@@ -1,0 +1,27 @@
+{
+  "eventsList": [
+    {
+      "name": "Gamescom Latam 2026",
+      "date": "São Paulo, Brasil • 30 de abril a 3 de maio de 2026",
+      "description": "Em 2026, o ARTIUS foi selecionado para o programa BIG Starter da Gamescom Latam. O BIG Starter é uma iniciativa que apoia jogos independentes brasileiros a terem um espaço de exposição dentro do evento. Marcamos presença em todos os cinco dias do evento. Foi uma oportunidade incrível estar mais uma vez no festival, e somos imensamente gratos por essa oportunidade. Além de mim, como desenvolvedor e produtor do projeto, e do Pedro Victor Gonçalves, líder do projeto e game designer, também contamos com a presença do Kevin Macedo (programador) e do Ítalo Mariz (artista).",
+      "pics": "gamescomlatam2026",
+      "logo": "/img/logos/gamescom.png"
+    },
+
+    {
+      "name": "Festival Jogatório 2025",
+      "date": "São Paulo, Brasil • 4 a 6 de julho de 2025",
+      "description": "Em 2025, o ARTIUS foi selecionado para a exposição de jogos independentes Festival Jogatório, da Firma Gamedev. Foi uma oportunidade marcante exibir o projeto ao lado de grandes títulos da cena nacional e conectar o jogo a um público engajado com o mercado indie. Representei o estúdio durante o evento ao lado de Pedro Victor Gonçalves (Líder do Projeto e Game Designer).",
+      "pics": "jogatorio2025",
+      "logo": "/img/logos/firma.jpg"
+    },
+
+    {
+      "name": "Gamescom Latam 2025",
+      "date": "São Paulo, Brasil • 1 a 5 de maio de 2025",
+      "description": "Em 2025, o ARTIUS fez sua estreia em eventos ao participar da Gamescom Latam no estande da comunidade GameMaker Brasil. O evento marcou nossa primeira exposição em São Paulo e a apresentação da primeira demo jogável do projeto. Nessa edição de presença pontual de um dia, representei o estúdio ao lado de Pedro Victor Gonçalves (Líder do Projeto e Game Designer). Pudemos conhecer gente sensacional da cena indie, aproveitar o evento e dar os primeiros passos na validação do jogo com o público.",
+      "pics": "gamescomlatam2025",
+      "logo": "/img/logos/gamescom.png"
+    }
+  ]
+}

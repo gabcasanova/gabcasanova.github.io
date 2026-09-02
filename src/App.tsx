@@ -10,6 +10,7 @@ import NotFound from "./pages/NotFound";
 import About from "./pages/About";
 import Experience from "./pages/Experience";
 import ScrollToTop from "./components/ScrollToTop";
+import { Events } from "./pages/Events";
 
 function App() {
   useEffect(() => {
@@ -21,11 +22,12 @@ function App() {
       <ScrollToTop />
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/project/:projectName" element={<Project />} />
-        <Route path="/exp" element={<Experience />} />
-        <Route path="/about" element={<About />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="/"                     element={<Home />}       />
+        <Route path="/project/:projectName" element={<Project />}    />
+        <Route path="/exp"                  element={<Experience />} />
+        <Route path="/events"               element={<Events />}     />
+        <Route path="/about"                element={<About />}      />
+        <Route path="*"                     element={<NotFound />}   />
       </Routes>
     </HashRouter>
   );
