@@ -10,9 +10,9 @@ export default defineConfig({
     react(), 
     tailwindcss(),
     ViteImageOptimizer({
-        png: { quality: 80 },
-        jpeg: { quality: 50 },
-        jpg: { quality: 50 },
+        png: { quality: 50 },
+        jpeg: { quality: 30 },
+        jpg: { quality: 30 },
         webp: { quality: 80 },
         avif: { quality: 70 },
         svg: {
