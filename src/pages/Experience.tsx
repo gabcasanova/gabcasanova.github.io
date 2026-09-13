@@ -13,6 +13,15 @@ type ExperienceProps = {
   text: string
 }
 
+type CertificateProps = {
+  institution: string,
+  img: string,  
+  title: string,
+  role: string,
+  desc: string,
+  link: string
+}
+
 const Experience = () => {
   const { t } = useTranslation()
 
@@ -22,6 +31,9 @@ const Experience = () => {
 
   const academic = t("experience:academic", { returnObjects: true })
   const academicListing = Array.isArray(academic) ? academic : Object.values(academic); 
+
+  const certificates = t("experience:certificates", { returnObjects: true })
+  const certificatesListing = Array.isArray(certificates) ? certificates : Object.values(certificates); 
 
   // Template experience div.
   function experienceSection(props: ExperienceProps, key: number) {
@@ -67,6 +79,43 @@ const Experience = () => {
     )
   }
 
+  // Template experience div.
+  function certificateSection(props: CertificateProps, key: number) {
+    return (
+      <div className="font-fredoka mb-5" key={key}>
+        <div className="flex items-center">
+          {/* Institution Logo */}
+          <img className="h-[70px] w-[70px] mr-3 border-1 p-1" src={props.img} />
+
+          {/* Institution name, certificate name, link and description */}
+          <div>
+            <p className="font-bold">{ props.institution }</p>
+            <p>
+              <span>{ props.title }</span>
+              <span>{" "} </span>
+
+              {/* Only show if theres a link */}
+              { props.link !== "" && 
+                <a className="hover:underline hover:font-bold" href={props.link}>(link)</a> 
+              } 
+            </p>
+            <p className="text-gray-500" >{ props.desc }</p>
+          </div>
+        </div>       
+      </div>
+    )
+  }
+
+  function createCertificates(certificatesArray: CertificateProps[]) {
+    return (
+      <div>
+        {certificatesArray.map((institution, index) => (
+          certificateSection(institution, index)
+        ))}
+      </div>
+    )
+  }
+
   return (
     <Page>
       {/* Page title */}
@@ -84,6 +133,9 @@ const Experience = () => {
         <div>
           <h2 className="mb-10 text-4xl font-walkaway">{ t("pages.experience.education") }</h2>
           { createExperience(academicListing) }
+
+          <h2 className="mt-20 mb-10 text-4xl font-walkaway">{ t("pages.experience.certificates") }</h2>
+          { createCertificates(certificatesListing) }
         </div>
       </div>
     </Page>

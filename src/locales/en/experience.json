@@ -59,5 +59,15 @@
       "role": "Research Internship",
       "text": "Intern Researcher and scholar at GPEEsC (Research Group on School, Sports, and Culture), providing IT support, including equipment configuration, technical support, and document transcription using Office Suite tools."
     }
+  ],
+
+  "certificates": [
+    {
+      "institution": "Ada",
+      "img": "/img/logos/alura.jpg",
+      "title": "Santander TECH+ - Backend Fundamentals",
+      "desc": "Introduction to backend development with Node.js, Express.js and TypeScript.",
+      "link": "asas"
+    }
   ]
 }

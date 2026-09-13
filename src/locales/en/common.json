@@ -31,7 +31,8 @@
     "experience": {
       "title": "Experience",
       "education": "Education",
-      "career": "Career"
+      "career": "Career",
+      "certificates": "Courses and Certificates"
     },
 
     "events": {
