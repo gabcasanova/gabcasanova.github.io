@@ -1,12 +1,16 @@
-import { useEffect, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Page from '../components/Page';
 
 // Import to dynamically grab all event images from src/assets
-const allEventImages = import.meta.glob<{ default: string }>(
+const allEventImages = import.meta.glob(
   '../assets/img/events/**/*.{png,jpg,jpeg,webp}',
-  { eager: true }
-);
+  {
+    eager: true,
+    query: '?url',
+    import: 'default'
+  }
+) as Record<string, string>;
 
 interface EventItem {
   name: string;
@@ -24,27 +28,21 @@ export const Events = () => {
 
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [currentGallery, setCurrentGallery] = useState<string[]>([]);
-  const [shuffledEvents, setShuffledEvents] = useState<{ [key: string]: string[] }>({});
 
-  // Helper function to match and shuffle images belonging to a specific event folder
-  useEffect(() => {
-    // Read events directly inside the hook so it doesn't need to be in the dependency array
-    const eventsList = t('eventsList', { returnObjects: true }) as EventItem[];
+  const shuffledEvents = useMemo(() => {
+    if (!Array.isArray(events)) return {};
 
-    if (!Array.isArray(eventsList)) return;
+    const mapped: Record<string, string[]> = {};
 
-    const mappedGalleries: { [key: string]: string[] } = {};
-
-    eventsList.forEach((event) => {
-      const matchingImages = Object.keys(allEventImages)
-        .filter((path) => path.includes(event.pics))
-        .map((path) => allEventImages[path].default);
-
-      mappedGalleries[event.pics] = [...matchingImages].sort(() => Math.random() - 0.5);
+    events.forEach((event) => {
+      mapped[event.pics] = Object.entries(allEventImages)
+        .filter(([path]) => path.includes(event.pics))
+        .map(([, src]) => src)
+        .sort(() => Math.random() - 0.5);
     });
 
-    setShuffledEvents(mappedGalleries);
-  }, [t]);
+    return mapped;
+  }, [events]);
 
   // Modal navigation helpers
   const handleOpenModal = (imageSrc: string, gallery: string[]) => {
@@ -88,16 +86,13 @@ export const Events = () => {
 
               {/* Images */}
               <div className="mt-7 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2 m-auto">
-                {/* Generate images from Array*/}
-                {images.map((src, index) => (
-                  <div 
-                    key={index}
-                    className="flex flex-col xl:max-w-[280px] h-[172px]
-                              hover:cursor-pointer hover:underline decoration-white
-                              hover:brightness-110 transition-all bg-cover bg-center
-                              hover:shadow-[rgba(0,0,0,0.5)] hover:shadow-2xl
-                              animate__animated animate__fadeIn animate__fast"
-                    style={{ backgroundImage: `url(${src})` }}
+                {images.map((src) => (
+                  <img
+                    src={src}
+                    alt=""
+                    loading="lazy"
+                    decoding="async"
+                    className="w-full h-[172px] object-cover hover:brightness-110 hover:cursor-pointer "
                     onClick={() => handleOpenModal(src, images)}
                   />
                 ))}
