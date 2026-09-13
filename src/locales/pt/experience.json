@@ -59,5 +59,15 @@
       "role": "Bolsista de Pré-Iniciação Científica",
       "text": "Aluno pesquisador bolsista no GPEEsC (Grupo de Pesquisa em Escola, Esporte e Cultura), prestando suporte de TI, incluindo configuração de equipamentos, suporte técnico e transcrição de documentos utilizando ferramentas do pacote Office."
     }
+  ],
+
+  "certificates": [
+    {
+      "institution": "Ada",
+      "img": "/img/logos/alura.jpg",
+      "title": "Santander TECH+ - Fundamentos Backend",
+      "desc": "Introdução ao desenvolvimento backend com Node.js, Express.js e TypeScript.",
+      "link": "https://drive.google.com/file/d/11hcBfVzTNqvvXjdwvTUN0HWtMCoPV_YZ/view?usp=sharing"
+    }
   ]
 }
