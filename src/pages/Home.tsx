@@ -6,12 +6,23 @@ import { useTranslation } from "react-i18next";
 const Home = () => {
   const { t } = useTranslation()
 
-  function projectThumbnail(text: string, image: string, link: string) {
+  function projectThumbnail(
+    text: string, 
+    image: string, 
+    link: string, 
+    centerImage: boolean = false 
+  ) {
     return (
       <div>
         <Link to={`/project/${link}`}>
-          <div className="h-[250px] text-white hover:brightness-90 transition duration-150"
-               style={{backgroundImage: image, backgroundSize: "cover"}} />
+          <div 
+            className="h-[250px] text-white hover:brightness-90 transition duration-150"
+            style={{
+              backgroundImage: image, 
+              backgroundSize: "cover",
+              backgroundPosition: centerImage ? "center" : undefined
+            }} 
+          />
           <p className="m-2 font-fredoka text-[18px] text-center">{ text }</p>
         </Link>
       </div>
@@ -27,11 +38,11 @@ const Home = () => {
 
       {/* Game Projects */}
       <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-5 gap-4">
-        { projectThumbnail("ARTIUS: Pure Imagination",        "url(/img/artius/thumb.png)",      "artius")      }
-        { projectThumbnail("Ednaldo Pereira: MESCLADASSO",    "url(/img/ednaldo/thumb.png)",     "ednaldo")     }
-        { projectThumbnail("Serious Lord of the Rings Bros.", "url(/img/seriouslotr/thumb.png)", "seriouslotr") }
-        { projectThumbnail("Shoelace!",                       "url(/img/shoelace/thumb.png)",    "shoelace")    }
-        { projectThumbnail("Meet Metris",                     "url(/img/meetmetris/thumb.png)",  "meetmetris")  }
+        { projectThumbnail("ARTIUS: Pure Imagination",        "url(/img/artius/thumb.png)",      "artius",      true) }
+        { projectThumbnail("Ednaldo Pereira: MESCLADASSO",    "url(/img/ednaldo/thumb.png)",     "ednaldo",     true) }
+        { projectThumbnail("Serious Lord of the Rings Bros.", "url(/img/seriouslotr/thumb.png)", "seriouslotr", true) }
+        { projectThumbnail("Shoelace!",                       "url(/img/shoelace/thumb.png)",    "shoelace",    true) }
+        { projectThumbnail("Meet Metris",                     "url(/img/meetmetris/thumb.png)",  "meetmetris",  true) }
       </div>
 
       {/* Section title */}
