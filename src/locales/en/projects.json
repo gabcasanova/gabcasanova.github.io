@@ -105,6 +105,24 @@
     ]
   },
 
+  "meetmetris": {
+    "name": "Shoelace!",
+    "type": "Personal Project",
+    "year": "2019",
+    "text": "Take a trip to Brazil with this calm and relaxing, easy while addictive falling blocks Puzzle game, With an entire soundtrack composed based on classic Brazilian songs. <br/><br/> This is a tetris-like puzzle game written in GameMaker. I made the game alone, writing all the code and drawing all the art. This was my first publicly-released project. The objective was to create a game that followed more-or-less the simplistic limitations of the Commodore 64.",
+    "stack": "gamemakerstudio",
+    "links": {
+      "play": "https://gabrielcasanova.itch.io/meet-metris"
+    },
+    "pics": [
+      "/img/meetmetris/1.png",
+      "/img/meetmetris/2.png",
+      "/img/meetmetris/3.png",
+      "/img/meetmetris/4.png",
+      "/img/meetmetris/5.png"
+    ]
+  },
+
   "shoelace": {
     "name": "Shoelace!",
     "type": "Game Jam Project",
