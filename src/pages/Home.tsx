@@ -42,6 +42,7 @@ const Home = () => {
         { projectThumbnail("Ednaldo Pereira: MESCLADASSO",    "url(/img/ednaldo/thumb.png)",     "ednaldo",     true) }
         { projectThumbnail("Serious Lord of the Rings Bros.", "url(/img/seriouslotr/thumb.png)", "seriouslotr", true) }
         { projectThumbnail("Shoelace!",                       "url(/img/shoelace/thumb.png)",    "shoelace",    true) }
+        { projectThumbnail("FallCraft",                       "url(/img/fallcraft/thumb.png)",   "fallcraft",   true) }
         { projectThumbnail("Meet Metris",                     "url(/img/meetmetris/thumb.png)",  "meetmetris",  true) }
       </div>
 

@@ -105,6 +105,43 @@
     ]
   },
 
+  "meetmetris": {
+    "name": "Meet Metris",
+    "type": "Projeto Pessoal",
+    "year": "2019",
+    "text": "Embarque em uma viagem pelo Brasil com este jogo de puzzle calmo, relaxante, simples e viciante, com uma trilha sonora totalmente baseada em clássicos da música brasileira. <br/><br/> Este é um jogo de quebra-cabeça estilo Tetris desenvolvido no GameMaker. Fiz o projeto sozinho, escrevendo todo o código e desenhando todas as artes. Foi o meu primeiro projeto lançado publicamente, com o objetivo de criar um jogo que seguisse, de forma geral, as limitações simplistas do Commodore 64.",
+    "stack": "gamemakerstudio",
+    "links": {
+      "play": "https://gabrielcasanova.itch.io/meet-metris"
+    },
+    "pics": [
+      "/img/meetmetris/1.png",
+      "/img/meetmetris/2.png",
+      "/img/meetmetris/3.png",
+      "/img/meetmetris/4.png",
+      "/img/meetmetris/5.png"
+    ]
+  },
+
+  "fallcraft": {
+    "name": "FallCraft",
+    "type": "Projeto de Game Jam",
+    "year": "2021",
+    "text": "Crie, pule, colete e corra, tudo ao mesmo tempo! Colete recursos valiosos de MineLand, viaje com foguetes fantásticos e entregue-os para a GUILDA ESPACIAL!! Bem, até que.... [redigido]<br/><br/> Este é um jogo cozy escrito em JavaScript e desenvolvido com o framework PhaserJS para a Game Jam Secret Santa 2021. Fiz o jogo sozinho, escrevendo todo o código e criando toda a arte.",
+    "stack": "javascript",
+    "links": {
+      "play": "https://gabrielcasanova.itch.io/fallcraft"
+    },
+    "pics": [
+      "/img/fallcraft/1.png",
+      "/img/fallcraft/2.png",
+      "/img/fallcraft/3.png",
+      "/img/fallcraft/4.png",
+      "/img/fallcraft/5.png",
+      "/img/fallcraft/6.png"
+    ]
+  },
+
   "shoelace": {
     "name": "Shoelace!",
     "type": "Projeto de Game Jam",

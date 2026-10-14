@@ -106,7 +106,7 @@
   },
 
   "meetmetris": {
-    "name": "Shoelace!",
+    "name": "Meet Metris",
     "type": "Personal Project",
     "year": "2019",
     "text": "Take a trip to Brazil with this calm and relaxing, easy while addictive falling blocks Puzzle game, With an entire soundtrack composed based on classic Brazilian songs. <br/><br/> This is a tetris-like puzzle game written in GameMaker. I made the game alone, writing all the code and drawing all the art. This was my first publicly-released project. The objective was to create a game that followed more-or-less the simplistic limitations of the Commodore 64.",
@@ -120,6 +120,25 @@
       "/img/meetmetris/3.png",
       "/img/meetmetris/4.png",
       "/img/meetmetris/5.png"
+    ]
+  },
+
+  "fallcraft": {
+    "name": "FallCraft",
+    "type": "Game Jam Project",
+    "year": "2021",
+    "text": "Craft, jump, collect and run, at the same time! Collect the precious resources from MineLand, travel with fantastical rockets and get them to the SPACING GUILD!! Well, until.... [redacted]<br/><br/> This is a cozy game written in JavaScript made with the PhaserJS framework for the Secret Santa 2021 Game Jam. I made the game alone, writing all the code and drawing all the art.",
+    "stack": "javascript",
+    "links": {
+      "play": "https://gabrielcasanova.itch.io/fallcraft"
+    },
+    "pics": [
+      "/img/fallcraft/1.png",
+      "/img/fallcraft/2.png",
+      "/img/fallcraft/3.png",
+      "/img/fallcraft/4.png",
+      "/img/fallcraft/5.png",
+      "/img/fallcraft/6.png"
     ]
   },
 
