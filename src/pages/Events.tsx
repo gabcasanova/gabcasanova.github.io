@@ -1,16 +1,35 @@
-import { useMemo, useState } from 'react';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Page from '../components/Page';
 
-// Import to dynamically grab all event images from src/assets
-const allEventImages = import.meta.glob(
-  '../assets/img/events/**/*.{png,jpg,jpeg,webp}',
-  {
-    eager: true,
-    query: '?url',
-    import: 'default'
-  }
-) as Record<string, string>;
+// Event photos are full-resolution originals, so resize them at build time (vite-imagetools):
+// small square thumbnails for the grid and a capped size for the fullscreen modal.
+const thumbImages = import.meta.glob('../assets/img/events/**/*.{png,jpg,jpeg,webp}', {
+  eager: true,
+  query: { w: '400', h: '400', fit: 'cover', format: 'webp', quality: '70' },
+  import: 'default'
+}) as Record<string, string>;
+
+const fullImages = import.meta.glob('../assets/img/events/**/*.{png,jpg,jpeg,webp}', {
+  eager: true,
+  query: { w: '1600', h: '1600', fit: 'inside', withoutEnlargement: 'true', format: 'webp', quality: '80' },
+  import: 'default'
+}) as Record<string, string>;
+
+interface EventImage {
+  thumb: string;
+  full: string;
+}
+
+// Group images by event folder, shuffled once per page load
+const galleries: Record<string, EventImage[]> = {};
+for (const path of Object.keys(thumbImages)) {
+  const folder = path.split('/').slice(-2)[0];
+  (galleries[folder] ??= []).push({ thumb: thumbImages[path], full: fullImages[path] });
+}
+for (const images of Object.values(galleries)) {
+  images.sort(() => Math.random() - 0.5);
+}
 
 interface EventItem {
   name: string;
@@ -26,31 +45,14 @@ export const Events = () => {
   // Get events array from i18n JSON
   const events = t('eventsList', { returnObjects: true }) as EventItem[];
 
-  const [selectedImage, setSelectedImage] = useState<string | null>(null);
-  const [currentGallery, setCurrentGallery] = useState<string[]>([]);
-
-  const shuffledEvents = useMemo(() => {
-    if (!Array.isArray(events)) return {};
-
-    const mapped: Record<string, string[]> = {};
-
-    events.forEach((event) => {
-      mapped[event.pics] = Object.entries(allEventImages)
-        .filter(([path]) => path.includes(event.pics))
-        .map(([, src]) => src)
-        .sort(() => Math.random() - 0.5);
-    });
-
-    return mapped;
-  }, [events]);
+  const [currentGallery, setCurrentGallery] = useState<EventImage[]>([]);
+  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
 
   // Modal navigation helpers
-  const handleOpenModal = (imageSrc: string, gallery: string[]) => {
-    setSelectedImage(imageSrc);
+  const handleOpenModal = (index: number, gallery: EventImage[]) => {
+    setSelectedIndex(index);
     setCurrentGallery(gallery);
   };
-
-  const selectedIndex = selectedImage ? currentGallery.indexOf(selectedImage) : -1;
 
   return (
     <Page>
@@ -61,7 +63,7 @@ export const Events = () => {
       
       <div className="max-w-[1000px] ml-auto mr-auto space-y-13">
         {Array.isArray(events) && events.map((event, eventIdx) => {
-          const images = shuffledEvents[event.pics] || [];
+          const images = galleries[event.pics] || [];
 
           return (
             <div key={eventIdx} className="border-b border-gray-300 pb-13 last:border-none">
@@ -86,14 +88,15 @@ export const Events = () => {
 
               {/* Images */}
               <div className="mt-7 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2 m-auto">
-                {images.map((src) => (
+                {images.map((image, index) => (
                   <img
-                    src={src}
+                    key={image.thumb}
+                    src={image.thumb}
                     alt=""
                     loading="lazy"
                     decoding="async"
                     className="w-full h-[172px] object-cover hover:brightness-110 hover:cursor-pointer "
-                    onClick={() => handleOpenModal(src, images)}
+                    onClick={() => handleOpenModal(index, images)}
                   />
                 ))}
               </div>
@@ -102,10 +105,10 @@ export const Events = () => {
         })}
 
         {/* Fullscreen Overlay Modal */}
-        {selectedImage !== null && (
+        {selectedIndex !== null && (
           <div
             className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-90 z-50 flex items-center justify-center"
-            onClick={() => setSelectedImage(null)} // clicking background closes modal
+            onClick={() => setSelectedIndex(null)} // clicking background closes modal
           >
             {/* MODAL CONTENT that prevents background closing */}
             <div
@@ -114,7 +117,7 @@ export const Events = () => {
             >
               {/* IMAGE */}
               <img
-                src={selectedImage}
+                src={currentGallery[selectedIndex].full}
                 alt="Enlarged event view"
                 className="max-w-full max-h-[90vh] object-contain rounded-md"
               />
@@ -122,7 +125,7 @@ export const Events = () => {
 
             {/* ✕ CLOSE button (fixed to screen) */}
             <button
-              onClick={() => setSelectedImage(null)}
+              onClick={() => setSelectedIndex(null)}
               className="fixed top-0 right-5 text-white text-[90px] p-2 hover:cursor-pointer hover:text-gray-400 z-[999]"
               aria-label="Close image"
             >
@@ -134,7 +137,7 @@ export const Events = () => {
               <button
                 onClick={(e) => {
                   e.stopPropagation();
-                  setSelectedImage(currentGallery[selectedIndex - 1]);
+                  setSelectedIndex(selectedIndex - 1);
                 }}
                 className="fixed top-1/2 left-5 transform -translate-y-1/2 text-white text-[90px] p-2 hover:text-gray-400 hover:cursor-pointer z-[999]"
               >
@@ -147,7 +150,7 @@ export const Events = () => {
               <button
                 onClick={(e) => {
                   e.stopPropagation();
-                  setSelectedImage(currentGallery[selectedIndex + 1]);
+                  setSelectedIndex(selectedIndex + 1);
                 }}
                 className="fixed top-1/2 right-5 transform -translate-y-1/2 text-white text-[90px] p-2 hover:text-gray-400 hover:cursor-pointer z-[999]"
               >
