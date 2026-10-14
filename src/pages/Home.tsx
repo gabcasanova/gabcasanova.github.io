@@ -15,14 +15,22 @@ const Home = () => {
     return (
       <div>
         <Link to={`/project/${link}`}>
-          <div 
-            className="h-[250px] text-white hover:brightness-90 transition duration-150"
+          <div
+            className="relative h-[250px] text-white hover:brightness-90 transition duration-150"
             style={{
-              backgroundImage: image, 
+              backgroundImage: image,
               backgroundSize: "cover",
               backgroundPosition: centerImage ? "center" : undefined
-            }} 
-          />
+            }}
+          >
+            {/* Tech stack */}
+            <img
+              className="absolute bottom-1 right-1 h-[25px] 
+                        [filter:drop-shadow(1px_0_0_white)_drop-shadow(-1px_0_0_white)_drop-shadow(0_1px_0_white)_drop-shadow(0_-1px_0_white)]"
+              src={`https://skillicons.dev/icons?i=${t(`projects:${link}.stack`)}`}
+              alt={t(`projects:${link}.stack`)}
+            />
+          </div>
           <p className="m-2 font-fredoka text-[18px] text-center">{ text }</p>
         </Link>
       </div>
