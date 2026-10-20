@@ -164,63 +164,20 @@
     "name": "Serious Lord of the Rings Bros.",
     "type": "Fan-game, Projeto de Game Jam",
     "year": "2021",
-    "text": "É EXATAMENTE O QUE VOCÊ ESTÁ PENSANDO! Re-experimente a aventura mágica de Frodo e seus amigos nesta paródia de O Senhor dos Anéis: A Sociedade do Anel, no estilo dos clássicos Super Mario Bros. e Zelda. Derrote Orcs malignos, Goblins, Espectros do Anel e salte por inúmeros espinhos e pontes na fantástica Terra-Média com uma estética retrô. Encontre Sam, Gandalf, Aragorn e Legolas em formas de pixel art enquanto foge dos olhos vermelhos do lorde das trevas Sauron.<br/><br/>Este é um fan-game escrito em JavaScript feito com o framework PhaserJS para a YomaJam 2021. O jogo inteiro foi feito em apenas um mês. Fiz o jogo sozinho, escrevendo todo o código e criando arte personalizada baseada nos jogos originais de Zelda e Mario para o NES. O objetivo era criar um jogo que seguisse mais ou menos as limitações simplistas do Nintendinho original.",
-    "stack": "javascript",
-    "links": {
-      "play": "https://gabrielcasanova.itch.io/seriouslotrbros",
-      "git": "https://github.com/gabcasanova/seriouslotrbros"
-    },
-    "pics": [
-      "/img/seriouslotr/1.png",
-      "/img/seriouslotr/2.png",
-      "/img/seriouslotr/3.png",
-      "/img/seriouslotr/4.png",
-      "/img/seriouslotr/5.png"
-    ]
+    "text": "É EXATAMENTE O QUE VOCÊ ESTÁ PENSANDO! Re-experimente a aventura mágica de Frodo e seus amigos nesta paródia de O Senhor dos Anéis: A Sociedade do Anel, no estilo dos clássicos Super Mario Bros. e Zelda. Derrote Orcs malignos, Goblins, Espectros do Anel e salte por inúmeros espinhos e pontes na fantástica Terra-Média com uma estética retrô. Encontre Sam, Gandalf, Aragorn e Legolas em formas de pixel art enquanto foge dos olhos vermelhos do lorde das trevas Sauron.<br/><br/>Este é um fan-game escrito em JavaScript feito com o framework PhaserJS para a YomaJam 2021. O jogo inteiro foi feito em apenas um mês. Fiz o jogo sozinho, escrevendo todo o código e criando arte personalizada baseada nos jogos originais de Zelda e Mario para o NES. O objetivo era criar um jogo que seguisse mais ou menos as limitações simplistas do Nintendinho original."
   },
 
   "ednaldo": {
     "name": "Ednaldo Pereira: MESCLADASSO",
     "type": "Colaboração Voluntária em Indie Game Comunitário",
     "year": "2020",
-    "text": "Ednaldo Pereira: MESCLADASSO é um jogo independente gratuito lançado em 2020, baseado no cantor e personalidade de internet, Ednaldo Pereira. É um platformer 2D collectathon, inspirado em clássicos como Super Mario 64 e Spongebob Battle for Bikini Bottom. O jogo apresenta uma história original em que Ednaldo e seu amigo Fleig defendem o universo de uma invasão de robôs criada pela temida Elite Preta.<br/><br/>O jogo atraiu ampla repercussão em veículos como G1, Jovem Nerd e canais de entretenimento como Flow Podcast, Coisa Nossa (Guaraná Antártica), Andrézitos e Cellbit.<br/><br/>Fui responsável pela programação do desenvolvimento do launcher e do sistema de atualização (updater) do jogo. Além da frente técnica, atuei na organização da equipe e na criação de peças gráficas e audiovisuais para a campanha de marketing do projeto.",
-    "stack": "gamemakerstudio",
-    "links": {
-      "play": "https://gamejolt.com/games/ednaldopereira/513510",
-      "vid": "https://youtu.be/n1Y4XidiC0g"
-    },
-    "pics": [
-      "/img/ednaldo/1.png",
-      "/img/ednaldo/2.png",
-      "/img/ednaldo/3.png",
-      "/img/ednaldo/4.png",
-      "/img/ednaldo/5.png",
-      "/img/ednaldo/6.png",
-      "/img/ednaldo/7.png",
-      "/img/ednaldo/8.png"
-    ]
+    "text": "Ednaldo Pereira: MESCLADASSO é um jogo independente gratuito lançado em 2020, baseado no cantor e personalidade de internet, Ednaldo Pereira. É um platformer 2D collectathon, inspirado em clássicos como Super Mario 64 e Spongebob Battle for Bikini Bottom. O jogo apresenta uma história original em que Ednaldo e seu amigo Fleig defendem o universo de uma invasão de robôs criada pela temida Elite Preta.<br/><br/>O jogo atraiu ampla repercussão em veículos como G1, Jovem Nerd e canais de entretenimento como Flow Podcast, Coisa Nossa (Guaraná Antártica), Andrézitos e Cellbit.<br/><br/>Fui responsável pela programação do desenvolvimento do launcher e do sistema de atualização (updater) do jogo. Além da frente técnica, atuei na organização da equipe e na criação de peças gráficas e audiovisuais para a campanha de marketing do projeto."
   },
 
   "artius": {
     "name": "ARTIUS: Pure Imagination",
     "type": "Produtor de Jogo e Desenvolvedor de Jogo",
     "year": "2025-2026",
-    "text": "ARTIUS é um platformer 2D super rápido baseado em momentum que coloca o jogador na pele de artistas batalhando para preservar a criatividade em um mundo na qual ela está à beira da extinção. Corra em alta velocidade e destrua tudo que vem pela frente nesta aventura cheia de adrenalina onde a arte é a sua arma mais forte!<br/><br/>Integrei a equipe de ARTIUS contribuindo com a redação do Game Design Document (GDD) e do pitch do jogo, o que eventualmente resultou em uma parceria com a publisher chinesa IndieArk. Em seguida, assumi as funções de Produtor de Jogo e Desenvolvedor de Jogo Adicional.<br/><br/>Como produtor, minha responsabilidade principal era organizar e coordenar o processo de desenvolvimento. Auxiliei no planejamento do roadmap, na gestão de prioridades da equipe e na garantia de uma comunicação clara entre todos os departamentos. Além da gestão interna, cuidei das relações externas e da comunicação com a publisher. Adicionalmente, representei o projeto em eventos e conferências, como Gamescom LATAM e Festival Jogatório.<br/><br/>Como desenvolvedor de jogos, fui responsável por correções de bugs (bug fixing), otimização e criação de ferramentas internas. Meu trabalho também incluiu suporte de localização para múltiplos idiomas, roteirização (scripting) de cutscenes e eventos in-game, implementação de sistemas 3D e porting do jogo para diferentes plataformas, incluindo Web e Linux.",
-    "stack": "gamemakerstudio,js",
-    "links": {
-      "play": "https://store.steampowered.com/app/3599920/ARTIUS_Pure_Imagination/",
-      "site": "https://pvicvg.com/#/artius",
-      "vid": "https://youtu.be/NbMfHNUAw_k"
-    },
-    "pics": [
-      "/img/artius/1.gif",
-      "/img/artius/2.jpg",
-      "/img/artius/3.jpg",
-      "/img/artius/4.jpg",
-      "/img/artius/5.jpg",
-      "/img/artius/6.jpg",
-      "/img/artius/7.jpg",
-      "/img/artius/8.jpg"
-    ]
+    "text": "ARTIUS é um platformer 2D super rápido baseado em momentum que coloca o jogador na pele de artistas batalhando para preservar a criatividade em um mundo na qual ela está à beira da extinção. Corra em alta velocidade e destrua tudo que vem pela frente nesta aventura cheia de adrenalina onde a arte é a sua arma mais forte!<br/><br/>Integrei a equipe de ARTIUS contribuindo com a redação do Game Design Document (GDD) e do pitch do jogo, o que eventualmente resultou em uma parceria com a publisher chinesa IndieArk. Em seguida, assumi as funções de Produtor de Jogo e Desenvolvedor de Jogo Adicional.<br/><br/>Como produtor, minha responsabilidade principal era organizar e coordenar o processo de desenvolvimento. Auxiliei no planejamento do roadmap, na gestão de prioridades da equipe e na garantia de uma comunicação clara entre todos os departamentos. Além da gestão interna, cuidei das relações externas e da comunicação com a publisher. Adicionalmente, representei o projeto em eventos e conferências, como Gamescom LATAM e Festival Jogatório.<br/><br/>Como desenvolvedor de jogos, fui responsável por correções de bugs (bug fixing), otimização e criação de ferramentas internas. Meu trabalho também incluiu suporte de localização para múltiplos idiomas, roteirização (scripting) de cutscenes e eventos in-game, implementação de sistemas 3D e porting do jogo para diferentes plataformas, incluindo Web e Linux."
   }
 }
